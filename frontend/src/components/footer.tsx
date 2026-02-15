@@ -9,7 +9,7 @@ export function Footer() {
                     <div className="col-span-1 md:col-span-2">
                         <Link href="/" className="flex items-center space-x-2 mb-4">
                             <HeartPulse className="h-6 w-6 text-primary" />
-                            <span className="font-bold text-xl">MediSearch</span>
+                            <span className="font-bold text-xl">Care Cures</span>
                         </Link>
                         <p className="text-sm text-muted-foreground max-w-sm leading-relaxed">
                             Empowering you with reliable health information. Understand symptoms, learn about diseases, and take control of your well-being.
@@ -61,7 +61,7 @@ export function Footer() {
                         </p>
                     </div>
                     <div className="mt-8 text-center text-xs text-muted-foreground">
-                        &copy; {new Date().getFullYear()} MediSearch. All rights reserved.
+                        &copy; {new Date().getFullYear()} Care Cures. All rights reserved.
                     </div>
                 </div>
             </div>

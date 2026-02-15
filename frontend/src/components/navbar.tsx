@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Search, Menu, HeartPulse } from "lucide-react";
+import { Search, Menu, HeartPulse, Languages } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
     Sheet,
@@ -13,23 +13,29 @@ import {
 import { Input } from "@/components/ui/input";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-
-const NAV_ITEMS = [
-    { name: "Home", href: "/" },
-    { name: "Diseases", href: "/diseases" },
-    { name: "About", href: "/about" },
-];
+import { useLanguage } from "@/lib/language-context";
 
 export function Navbar() {
     const pathname = usePathname();
     const router = useRouter();
     const [searchQuery, setSearchQuery] = useState("");
+    const { language, setLanguage, t } = useLanguage();
+
+    const NAV_ITEMS = [
+        { name: t("nav.home"), href: "/" },
+        { name: t("nav.diseases"), href: "/diseases" },
+        { name: t("nav.about"), href: "/about" },
+    ];
 
     const handleSearch = (e: React.FormEvent) => {
         e.preventDefault();
         if (searchQuery.trim()) {
             router.push(`/diseases?search=${encodeURIComponent(searchQuery)}`);
         }
+    };
+
+    const toggleLanguage = () => {
+        setLanguage(language === "en" ? "tl" : "en");
     };
 
     return (
@@ -40,7 +46,7 @@ export function Navbar() {
                     <Link href="/" className="mr-6 flex items-center space-x-2">
                         <HeartPulse className="h-6 w-6 text-primary" />
                         <span className="hidden font-bold sm:inline-block text-xl text-foreground">
-                            MediSearch
+                            Care Cures
                         </span>
                     </Link>
                 </div>
@@ -59,15 +65,26 @@ export function Navbar() {
                     ))}
                 </nav>
 
-                {/* Right Side: Search & Mobile Menu */}
+                {/* Right Side: Language Toggle, Search & Mobile Menu */}
                 <div className="flex items-center space-x-2">
+                    {/* Language Toggle */}
+                    <Button
+                        variant="ghost"
+                        size="sm"
+                        onClick={toggleLanguage}
+                        className="gap-2 font-medium"
+                    >
+                        <Languages className="h-4 w-4" />
+                        <span className="hidden sm:inline">{language === "en" ? "EN" : "TL"}</span>
+                    </Button>
+
                     {/* Desktop Search */}
                     <form onSubmit={handleSearch} className="hidden md:flex relative w-full max-w-sm items-center space-x-2">
                         <div className="relative">
                             <Search className="absolute left-2.5 top-2.5 h-4 w-4 text-muted-foreground" />
                             <Input
                                 type="search"
-                                placeholder="Search..."
+                                placeholder={t("nav.search")}
                                 className="w-64 pl-8 rounded-full bg-muted/50 border-transparent focus:bg-background focus:border-input"
                                 value={searchQuery}
                                 onChange={(e) => setSearchQuery(e.target.value)}
@@ -95,7 +112,7 @@ export function Navbar() {
                             <div className="flex flex-col space-y-4 py-4">
                                 <Link href="/" className="flex items-center space-x-2 px-2" onClick={() => { }}>
                                     <HeartPulse className="h-6 w-6 text-primary" />
-                                    <span className="font-bold">MediSearch</span>
+                                    <span className="font-bold">Care Cures</span>
                                 </Link>
                                 <div className="flex flex-col space-y-3">
                                     {NAV_ITEMS.map((item) => (
@@ -103,8 +120,8 @@ export function Navbar() {
                                             <Link
                                                 href={item.href}
                                                 className={`block px-2 py-1 text-lg ${pathname === item.href
-                                                        ? "font-medium text-primary"
-                                                        : "text-muted-foreground"
+                                                    ? "font-medium text-primary"
+                                                    : "text-muted-foreground"
                                                     }`}
                                             >
                                                 {item.name}

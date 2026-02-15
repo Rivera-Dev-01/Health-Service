@@ -4,8 +4,13 @@
 
 /* Medical Theme - Soft Blues and Greens */
 :root {
-  --background: oklch(0.99 0.01 240); /* Very faint cool white */
-  --foreground: oklch(0.25 0.05 250); /* Dark slate blue text */
+  --font-sans: var(--font-inter);
+  --font-serif: var(--font-merriweather);
+
+  --background: oklch(0.99 0.01 240);
+  /* Very faint cool white */
+  --foreground: oklch(0.25 0.05 250);
+  /* Dark slate blue text */
 
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.25 0.05 250);
@@ -13,16 +18,20 @@
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.25 0.05 250);
 
-  --primary: oklch(0.65 0.13 250); /* #4A90D9 Soft Blue */
+  --primary: oklch(0.65 0.13 250);
+  /* #4A90D9 Soft Blue */
   --primary-foreground: oklch(1 0 0);
 
-  --secondary: oklch(0.95 0.05 150); /* #E8F5E9 Light Green */
-  --secondary-foreground: oklch(0.35 0.1 150); /* Dark Green Text */
+  --secondary: oklch(0.95 0.05 150);
+  /* #E8F5E9 Light Green */
+  --secondary-foreground: oklch(0.35 0.1 150);
+  /* Dark Green Text */
 
   --muted: oklch(0.96 0.01 250);
   --muted-foreground: oklch(0.55 0.05 250);
 
-  --accent: oklch(0.95 0.03 250); /* #E8F4FD Light Blue */
+  --accent: oklch(0.95 0.03 250);
+  /* #E8F4FD Light Blue */
   --accent-foreground: oklch(0.25 0.05 250);
 
   --destructive: oklch(0.6 0.15 20);
@@ -30,10 +39,11 @@
 
   --border: oklch(0.92 0.02 250);
   --input: oklch(0.92 0.02 250);
-  --ring: oklch(0.65 0.13 250); /* Match primary */
+  --ring: oklch(0.65 0.13 250);
+  /* Match primary */
 
   --radius: 0.625rem;
-  
+
   --chart-1: oklch(0.65 0.13 250);
   --chart-2: oklch(0.60 0.15 150);
   --chart-3: oklch(0.85 0.1 80);
@@ -141,10 +151,33 @@
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
   }
+
   html {
     scroll-behavior: smooth;
   }
+}
+
+/* Typography improvements */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+h1 {
+  font-weight: 900;
+}
+
+p {
+  line-height: 1.7;
 }

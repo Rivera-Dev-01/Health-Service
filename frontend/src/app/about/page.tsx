@@ -13,7 +13,7 @@ export default function AboutPage() {
     return (
         <div className="container mx-auto px-4 py-12 max-w-4xl">
             <div className="text-center mb-12">
-                <h1 className="text-4xl font-bold tracking-tight mb-4">About MediSearch</h1>
+                <h1 className="text-4xl font-bold tracking-tight mb-4">About Care Cures</h1>
                 <p className="text-xl text-muted-foreground">
                     Empowering you with the knowledge to understand your health better.
                 </p>
@@ -31,7 +31,7 @@ export default function AboutPage() {
                         </CardHeader>
                         <CardContent className="text-lg leading-relaxed text-muted-foreground">
                             <p className="mb-4">
-                                MediSearch was created with a simple goal: to make medical information accessible, easy to understand, and less intimidating for everyone. We believe that understanding your health is the first step toward better well-being.
+                                Care Cures was created with a simple goal: to make medical information accessible, easy to understand, and less intimidating for everyone. We believe that understanding your health is the first step toward better well-being.
                             </p>
                             <p>
                                 Our platform aggregates simplified medical data about common diseases, symptoms, and preventive measures, creating a bridge between complex medical terminology and everyday language.
@@ -98,7 +98,7 @@ export default function AboutPage() {
                                 Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition. Never disregard professional medical advice or delay in seeking it because of something you have read on this website.
                             </p>
                             <p>
-                                If you think you may have a medical emergency, call your doctor or emergency services immediately. MediSearch does not recommend or endorse any specific tests, physicians, products, procedures, opinions, or other information that may be mentioned on the Site.
+                                If you think you may have a medical emergency, call your doctor or emergency services immediately. Care Cures does not recommend or endorse any specific tests, physicians, products, procedures, opinions, or other information that may be mentioned on the Site.
                             </p>
                         </CardContent>
                     </Card>
