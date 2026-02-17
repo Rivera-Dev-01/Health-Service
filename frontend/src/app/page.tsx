@@ -1,7 +1,8 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import Link from "next/link";
-import { Search, ArrowRight, HeartPulse, Activity, Brain, Wind } from "lucide-react";
+import { Search, ArrowRight, HeartPulse, Activity, Brain, Wind, Shield, Users, Globe, CheckCircle2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Badge } from "@/components/ui/badge";
@@ -13,11 +14,11 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { MOCK_DISEASES, CATEGORIES } from "@/lib/mock-data";
+import { CATEGORIES } from "@/lib/mock-data";
+import { getAllDiseases, DiseaseWithTranslation } from "@/lib/diseases";
 import { motion } from "framer-motion";
 import { useLanguage } from "@/lib/language-context";
 import { useRouter } from "next/navigation";
-import { useState } from "react";
 
 const getIcon = (iconName: string) => {
   switch (iconName) {
@@ -30,10 +31,31 @@ const getIcon = (iconName: string) => {
 };
 
 export default function Home() {
-  const featuredDiseases = MOCK_DISEASES.slice(0, 4);
-  const { t } = useLanguage();
+  const [diseases, setDiseases] = useState<DiseaseWithTranslation[]>([]);
+  const [loading, setLoading] = useState(true);
+  const { t, language } = useLanguage();
   const router = useRouter();
   const [searchQuery, setSearchQuery] = useState("");
+
+  // Helper function to translate category names
+  const translateCategory = (category: string) => {
+    const key = `category.${category.toLowerCase().replace(/[^a-z]/g, '')}`;
+    const translated = t(key);
+    // If translation key doesn't exist, return original
+    return translated === key ? category : translated;
+  };
+
+  useEffect(() => {
+    const fetchDiseases = async () => {
+      setLoading(true);
+      const data = await getAllDiseases(language);
+      setDiseases(data);
+      setLoading(false);
+    };
+    fetchDiseases();
+  }, [language]);
+
+  const featuredDiseases = diseases.slice(0, 4);
 
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
@@ -233,48 +255,83 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {featuredDiseases.map((disease, index) => (
-              <motion.div
-                key={disease.slug}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.4, delay: index * 0.1 }}
-              >
-                <Link href={`/diseases/${disease.slug}`} className="block h-full">
-                  <Card className="group hover:shadow-lg hover:-translate-y-1 transition-all duration-300 bg-card h-full flex flex-col relative overflow-hidden">
-                    {/* Animated background blob */}
-                    <div className="absolute top-0 right-0 w-32 h-32 bg-primary/5 rounded-full -translate-y-16 translate-x-16 group-hover:scale-150 transition-transform duration-500" />
-                    
-                    <CardHeader className="pb-4 relative">
-                      <div className="flex items-start justify-between mb-3">
-                        <motion.div 
-                          className="p-3 rounded-xl bg-primary/10 border border-primary/20"
-                          whileHover={{ scale: 1.1, rotate: 5 }}
-                          transition={{ type: "spring", stiffness: 300 }}
-                        >
-                          {getIcon(disease.icon)}
-                        </motion.div>
-                      </div>
-                      <CardTitle className="text-lg font-bold leading-tight group-hover:text-primary transition-colors">
-                        {disease.name}
-                      </CardTitle>
-                    </CardHeader>
-                    <CardContent className="flex-1 pb-4 relative">
-                      <CardDescription className="line-clamp-3 text-sm leading-relaxed">
-                        {disease.shortDescription}
-                      </CardDescription>
-                    </CardContent>
-                    <CardFooter className="pt-0 relative">
-                      <div className="flex items-center text-sm font-medium text-primary group-hover:gap-2 transition-all">
-                        <span>{t("diseases.learn")}</span>
-                        <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
-                      </div>
-                    </CardFooter>
-                  </Card>
-                </Link>
-              </motion.div>
-            ))}
+            {loading ? (
+              // Loading skeleton
+              Array.from({ length: 4 }).map((_, index) => (
+                <Card key={index} className="h-full animate-pulse">
+                  <CardHeader className="pb-4">
+                    <div className="w-12 h-12 bg-gray-200 rounded-xl mb-3" />
+                    <div className="h-6 bg-gray-200 rounded w-3/4" />
+                  </CardHeader>
+                  <CardContent>
+                    <div className="space-y-2">
+                      <div className="h-4 bg-gray-200 rounded" />
+                      <div className="h-4 bg-gray-200 rounded w-5/6" />
+                    </div>
+                  </CardContent>
+                </Card>
+              ))
+            ) : (
+              featuredDiseases.map((disease, index) => {
+                const displayName = disease.translation?.name || disease.name;
+                const displayShortDesc = disease.translation?.short_description || disease.short_description;
+                
+                return (
+                  <motion.div
+                    key={disease.slug}
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.4, delay: index * 0.1 }}
+                  >
+                    <Link href={`/diseases/${disease.slug}`} className="block h-full">
+                      <Card className="group hover:shadow-xl hover:-translate-y-1 transition-all duration-300 bg-card h-full flex flex-col relative overflow-hidden border-2 hover:border-primary/30">
+                        {/* Animated background blob */}
+                        <div className="absolute top-0 right-0 w-32 h-32 bg-primary/5 rounded-full -translate-y-16 translate-x-16 group-hover:scale-150 transition-transform duration-500" />
+                        
+                        <CardHeader className="pb-4 relative">
+                          <div className="flex justify-between items-start mb-4">
+                            {/* Left: Icon */}
+                            <motion.div 
+                              className="p-3 rounded-xl bg-primary/10 border-2 border-primary/20"
+                              whileHover={{ scale: 1.1, rotate: 5 }}
+                              transition={{ type: "spring", stiffness: 300 }}
+                            >
+                              {getIcon(disease.icon)}
+                            </motion.div>
+                            {/* Right: Reviewed Badge */}
+                            <div className="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-green-50 border border-green-200">
+                              <CheckCircle2 className="h-3.5 w-3.5 text-green-600" />
+                              <span className="text-xs font-semibold text-green-700">{t("diseases.reviewed")}</span>
+                            </div>
+                          </div>
+                          {/* Category Badge - Full width placement */}
+                          <div className="mb-3">
+                            <Badge variant="secondary" className="text-xs font-medium">
+                              {translateCategory(disease.category)}
+                            </Badge>
+                          </div>
+                          <CardTitle className="text-lg font-bold leading-tight group-hover:text-primary transition-colors">
+                            {displayName}
+                          </CardTitle>
+                        </CardHeader>
+                        <CardContent className="flex-1 pb-4 relative">
+                          <CardDescription className="line-clamp-3 text-sm leading-relaxed">
+                            {displayShortDesc}
+                          </CardDescription>
+                        </CardContent>
+                        <CardFooter className="pt-0 relative">
+                          <div className="flex items-center text-sm font-medium text-primary group-hover:gap-2 transition-all">
+                            <span>{t("diseases.learn")}</span>
+                            <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
+                          </div>
+                        </CardFooter>
+                      </Card>
+                    </Link>
+                  </motion.div>
+                );
+              })
+            )}
           </div>
 
           <div className="mt-8 text-center sm:hidden">
@@ -319,11 +376,111 @@ export default function Home() {
                   asChild
                 >
                   <Link href={`/diseases?category=${category}`}>
-                    {category}
+                    {translateCategory(category)}
                   </Link>
                 </Button>
               </motion.div>
             ))}
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Trust Section - Why Trust Us */}
+      <section className="py-20 bg-background border-y border-border">
+        <div className="container mx-auto px-4 max-w-3xl">
+          <motion.div
+            className="text-center mb-10"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+          >
+            <h2 className="text-2xl md:text-3xl font-bold mb-2">{t("trust.title")}</h2>
+            <p className="text-sm text-muted-foreground">
+              {t("trust.subtitle")}
+            </p>
+          </motion.div>
+
+          {/* Simple Checkmark List - Centered */}
+          <div className="space-y-6 mb-10 max-w-2xl mx-auto">
+            <motion.div
+              className="flex gap-4 items-start"
+              initial={{ opacity: 0, x: -10 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.1 }}
+            >
+              <div className="flex-shrink-0 w-6 h-6 rounded-full bg-green-100 flex items-center justify-center mt-0.5">
+                <CheckCircle2 className="h-4 w-4 text-green-600" />
+              </div>
+              <div>
+                <h3 className="font-semibold text-base mb-1">{t("trust.reviewed.title")}</h3>
+                <p className="text-muted-foreground text-sm leading-relaxed">
+                  {t("trust.reviewed.desc")}
+                </p>
+              </div>
+            </motion.div>
+
+            <motion.div
+              className="flex gap-4 items-start"
+              initial={{ opacity: 0, x: -10 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.2 }}
+            >
+              <div className="flex-shrink-0 w-6 h-6 rounded-full bg-green-100 flex items-center justify-center mt-0.5">
+                <CheckCircle2 className="h-4 w-4 text-green-600" />
+              </div>
+              <div>
+                <h3 className="font-semibold text-base mb-1">{t("trust.accessible.title")}</h3>
+                <p className="text-muted-foreground text-sm leading-relaxed">
+                  {t("trust.accessible.desc")}
+                </p>
+              </div>
+            </motion.div>
+
+            <motion.div
+              className="flex gap-4 items-start"
+              initial={{ opacity: 0, x: -10 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.3 }}
+            >
+              <div className="flex-shrink-0 w-6 h-6 rounded-full bg-green-100 flex items-center justify-center mt-0.5">
+                <CheckCircle2 className="h-4 w-4 text-green-600" />
+              </div>
+              <div>
+                <h3 className="font-semibold text-base mb-1">{t("trust.community.title")}</h3>
+                <p className="text-muted-foreground text-sm leading-relaxed">
+                  {t("trust.community.desc")}
+                </p>
+              </div>
+            </motion.div>
+          </div>
+
+          {/* Stats Section - Centered Inline */}
+          <motion.div
+            className="flex flex-wrap justify-center gap-x-8 gap-y-4 pt-8 border-t"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.4 }}
+          >
+            <div className="flex items-baseline gap-2">
+              <span className="text-2xl font-bold text-primary">20</span>
+              <span className="text-xs text-muted-foreground uppercase tracking-wide">{t("trust.stats.conditions")}</span>
+            </div>
+            <div className="flex items-baseline gap-2">
+              <span className="text-2xl font-bold text-primary">2</span>
+              <span className="text-xs text-muted-foreground uppercase tracking-wide">{t("trust.stats.languages")}</span>
+            </div>
+            <div className="flex items-baseline gap-2">
+              <span className="text-2xl font-bold text-primary">100%</span>
+              <span className="text-xs text-muted-foreground uppercase tracking-wide">{t("trust.stats.free")}</span>
+            </div>
+            <div className="flex items-baseline gap-2">
+              <span className="text-2xl font-bold text-primary">24/7</span>
+              <span className="text-xs text-muted-foreground uppercase tracking-wide">{t("trust.stats.available")}</span>
+            </div>
           </motion.div>
         </div>
       </section>
