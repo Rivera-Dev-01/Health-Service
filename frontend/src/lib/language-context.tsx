@@ -79,6 +79,13 @@ const translations: Record<Language, Record<string, string>> = {
         "category.infectious": "Infectious",
         "category.endocrine": "Endocrine",
         "category.autoimmune": "Autoimmune",
+
+        // Footer
+        "footer.description": "Empowering you with reliable health information. Understand symptoms, learn about diseases, and take control of your well-being.",
+        "footer.quick": "Quick Links",
+        "footer.team": "Project Proponents",
+        "footer.disclaimer": "MEDICAL DISCLAIMER: This website is for educational purposes only and is not a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition.",
+        "footer.rights": "All rights reserved.",
     },
     tl: {
         // Navbar
@@ -146,6 +153,13 @@ const translations: Record<Language, Record<string, string>> = {
         "category.infectious": "Nakakahawa",
         "category.endocrine": "Endocrine",
         "category.autoimmune": "Autoimmune",
+
+        // Footer
+        "footer.description": "Binibigyan ka namin ng maaasahang impormasyon sa kalusugan. Unawain ang mga sintomas, matuto tungkol sa mga sakit, at kontrolin ang iyong kalusugan.",
+        "footer.quick": "Mabilis na Links",
+        "footer.team": "Koponan ng Pag-unlad",
+        "footer.disclaimer": "MEDIKAL NA DISCLAIMER: Ang website na ito ay para lamang sa layuning pang-edukasyon at hindi kapalit ng propesyonal na medikal na payo, diagnosis, o paggamot. Palaging humingi ng payo mula sa iyong doktor o iba pang kwalipikadong tagapagbigay ng kalusugan tungkol sa anumang medikal na kondisyon.",
+        "footer.rights": "Lahat ng karapatan ay nakalaan.",
     },
 };
 
