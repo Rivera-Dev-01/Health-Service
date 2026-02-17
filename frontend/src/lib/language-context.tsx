@@ -19,6 +19,7 @@ const translations: Record<Language, Record<string, string>> = {
         "nav.diseases": "Diseases",
         "nav.about": "About",
         "nav.search": "Search...",
+        "nav.browse": "Browse Diseases",
 
         // Homepage
         "home.badge": "Trusted Medical Knowledge",
@@ -27,7 +28,7 @@ const translations: Record<Language, Record<string, string>> = {
         "home.description": "Evidence-based information about diseases and symptoms, designed to help you make informed health decisions.",
         "home.browse": "Browse Conditions",
         "home.learn": "Learn More",
-        "home.conditions": "500+ Conditions",
+        "home.conditions": "20 Conditions",
         "home.verified": "Verified Sources",
         "home.search.title": "Search Health Topics",
         "home.search.placeholder": "e.g., diabetes, headache, fever...",
@@ -85,6 +86,7 @@ const translations: Record<Language, Record<string, string>> = {
         "nav.diseases": "Mga Sakit",
         "nav.about": "Tungkol",
         "nav.search": "Maghanap...",
+        "nav.browse": "Tingnan ang Mga Sakit",
 
         // Homepage
         "home.badge": "Pinagkakatiwalaang Kaalaman sa Kalusugan",
@@ -93,7 +95,7 @@ const translations: Record<Language, Record<string, string>> = {
         "home.description": "Impormasyon na batay sa ebidensya tungkol sa mga sakit at sintomas, dinisenyo upang tulungan kang gumawa ng matalinong desisyon sa kalusugan.",
         "home.browse": "Tingnan ang Mga Kondisyon",
         "home.learn": "Matuto Pa",
-        "home.conditions": "500+ Kondisyon",
+        "home.conditions": "20 Kondisyon",
         "home.verified": "Beripikadong Pinagmulan",
         "home.search.title": "Maghanap ng Paksa sa Kalusugan",
         "home.search.placeholder": "hal., diabetes, sakit ng ulo, lagnat...",

@@ -1,0 +1,395 @@
+================================================================================
+MEDICAL KNOWLEDGE BASE - 20 PRIORITY DISEASES (PHILIPPINES)
+================================================================================
+Last Updated: October 2024
+Sources: WHO, CDC, DOH Philippines
+================================================================================
+
+================================================================================
+DISEASE #1: ISCHEMIC HEART DISEASE
+================================================================================
+
+DISEASE_NAME: Ischemic Heart Disease
+SLUG: ischemic-heart-disease
+CATEGORY: Cardiovascular
+SHORT_DESCRIPTION: A condition where reduced blood flow to the heart muscle is caused by narrowed or blocked coronary arteries.
+DESCRIPTION: Ischemic heart disease, also known as coronary artery disease (CAD), occurs when the coronary arteries become narrowed or blocked due to plaque buildup (atherosclerosis). This reduces blood flow to the heart muscle, leading to chest pain (angina) or heart attack.
+ICON: Heart
+OVERVIEW: Ischemic heart disease is the leading cause of death worldwide and in the Philippines. It develops when cholesterol-containing deposits (plaques) build up in the coronary arteries, restricting blood flow to the heart. Over time, this can damage or destroy heart muscle. Risk factors include high cholesterol, high blood pressure, smoking, diabetes, obesity, and family history. Many people don't realize they have the disease until they experience chest pain or suffer a heart attack.
+CAUSES: Atherosclerosis (plaque buildup in arteries), High cholesterol levels, High blood pressure, Smoking, Diabetes, Obesity, Sedentary lifestyle, Family history of heart disease, Age (risk increases with age), Chronic stress
+SYMPTOMS: Chest pain or discomfort (angina), Shortness of breath, Pain in neck/jaw/throat/upper abdomen/back, Nausea, Fatigue, Sweating, Dizziness, Heart attack (severe chest pain, cold sweat, nausea)
+PREVENTION: Eat a heart-healthy diet (low in saturated fat and salt, high in fruits/vegetables), Exercise regularly (at least 30 minutes most days), Quit smoking and avoid secondhand smoke, Maintain a healthy weight, Control blood pressure and cholesterol, Manage diabetes, Reduce stress, Limit alcohol consumption
+WHEN_TO_SEE_DOCTOR: Seek emergency care if you experience chest pain, especially if accompanied by shortness of breath, sweating, nausea, or pain radiating to the arm, jaw, or back. Schedule a regular checkup if you have risk factors like high blood pressure, high cholesterol, diabetes, or family history of heart disease.
+RELATED_SLUGS: hypertension, diabetes-mellitus, stroke, chronic-kidney-disease
+SOURCE: WHO
+SOURCE_URL: https://www.who.int/health-topics/cardiovascular-diseases
+
+================================================================================
+DISEASE #2: CEREBROVASCULAR DISEASE (STROKE)
+================================================================================
+
+DISEASE_NAME: Cerebrovascular Disease (Stroke)
+SLUG: stroke
+CATEGORY: Cardiovascular
+SHORT_DESCRIPTION: A medical emergency where blood supply to part of the brain is interrupted or reduced, preventing brain tissue from getting oxygen.
+DESCRIPTION: A stroke occurs when the blood supply to part of the brain is blocked (ischemic stroke) or when a blood vessel in the brain bursts (hemorrhagic stroke). Without oxygen, brain cells begin to die within minutes.
+ICON: Brain
+OVERVIEW: Stroke is the 2nd leading cause of death in the Philippines and a major cause of long-term disability. There are two main types: ischemic stroke (caused by blocked arteries) and hemorrhagic stroke (caused by bleeding in the brain). Quick treatment is critical—the acronym FAST helps identify stroke symptoms: Face drooping, Arm weakness, Speech difficulty, Time to call emergency services. Risk factors include high blood pressure, smoking, diabetes, high cholesterol, obesity, and atrial fibrillation.
+CAUSES: Ischemic stroke (blood clot blocking artery to brain), Hemorrhagic stroke (ruptured blood vessel in brain), High blood pressure (primary cause), Smoking, Diabetes, High cholesterol, Atrial fibrillation, Obesity, Excessive alcohol use, Drug abuse (cocaine, amphetamines)
+SYMPTOMS: Sudden numbness or weakness (face, arm, leg, especially on one side), Sudden confusion or trouble speaking, Sudden trouble seeing in one or both eyes, Sudden trouble walking or loss of balance, Sudden severe headache with no known cause, Dizziness, Loss of consciousness
+PREVENTION: Control high blood pressure, Eat a healthy diet (low in salt and saturated fat), Exercise regularly, Maintain a healthy weight, Don't smoke, Limit alcohol consumption, Manage diabetes, Treat atrial fibrillation, Control cholesterol levels
+WHEN_TO_SEE_DOCTOR: Call emergency services IMMEDIATELY if you or someone else shows any stroke symptoms. Remember FAST: Face drooping, Arm weakness, Speech difficulty, Time to call 911. Even if symptoms resolve quickly (transient ischemic attack or TIA), seek immediate medical attention as it may be a warning sign of a future stroke.
+RELATED_SLUGS: ischemic-heart-disease, hypertension, diabetes-mellitus, atrial-fibrillation
+SOURCE: WHO
+SOURCE_URL: https://www.who.int/health-topics/cerebrovascular-diseases
+
+================================================================================
+DISEASE #3: CANCER (NEOPLASMS)
+================================================================================
+
+DISEASE_NAME: Cancer (Neoplasms)
+SLUG: cancer
+CATEGORY: Oncology
+SHORT_DESCRIPTION: A group of diseases involving abnormal cell growth with the potential to invade or spread to other parts of the body.
+DESCRIPTION: Cancer occurs when genetic changes cause cells to divide uncontrollably and spread into surrounding tissues. There are more than 100 types of cancer, including breast, lung, liver, colorectal, and cervical cancer.
+ICON: AlertCircle
+OVERVIEW: Cancer is the 3rd leading cause of death in the Philippines. In the Philippines, the most common cancers are lung, breast, liver, colorectal, and cervical cancer. Cancer develops when normal cells undergo genetic mutations that cause them to grow and multiply abnormally. These abnormal cells can form tumors and spread (metastasize) to other parts of the body. Risk factors vary by cancer type but include tobacco use, unhealthy diet, physical inactivity, infections (HPV, Hepatitis B), and family history. Early detection through screening significantly improves treatment outcomes.
+CAUSES: Tobacco use (lung, throat, mouth cancer), Infections (HPV for cervical cancer, Hepatitis B/C for liver cancer, H. pylori for stomach cancer), Unhealthy diet (low in fruits/vegetables, high in processed meat), Physical inactivity, Obesity, Alcohol consumption, Radiation exposure, Environmental pollutants, Genetic mutations, Family history
+SYMPTOMS: Unexplained weight loss, Persistent fatigue, Fever, Pain, Skin changes, Persistent cough or hoarseness, Changes in bowel or bladder habits, Unusual bleeding or discharge, Thickening or lump (breast, testicle, lymph nodes, etc.), Difficulty swallowing, Persistent indigestion
+PREVENTION: Don't use tobacco, Maintain a healthy weight, Be physically active, Eat a healthy diet (fruits, vegetables, whole grains), Limit alcohol, Protect skin from sun exposure, Get vaccinated (HPV vaccine for cervical cancer, Hepatitis B vaccine for liver cancer), Regular cancer screening (mammogram, Pap smear, colonoscopy), Avoid risky behaviors (safe sex, don't share needles)
+WHEN_TO_SEE_DOCTOR: See a doctor if you notice any persistent symptoms such as unexplained weight loss, lumps, changes in moles, persistent cough, unusual bleeding, or any symptom that concerns you and doesn't go away. Follow screening guidelines for your age and risk factors (mammograms, Pap smears, colonoscopy). Early detection saves lives.
+RELATED_SLUGS: lung-cancer, breast-cancer, cervical-cancer, liver-cancer, hepatitis-b
+SOURCE: WHO
+SOURCE_URL: https://www.who.int/news-room/fact-sheets/detail/cancer
+
+================================================================================
+DISEASE #4: DIABETES MELLITUS
+================================================================================
+
+DISEASE_NAME: Diabetes Mellitus
+SLUG: diabetes-mellitus
+CATEGORY: Endocrine
+SHORT_DESCRIPTION: A chronic condition that affects the way your body processes blood sugar (glucose).
+DESCRIPTION: With type 2 diabetes, your body either doesn't produce enough insulin, or it resists insulin. Type 1 diabetes is an autoimmune condition where the body doesn't produce insulin.
+ICON: Activity
+OVERVIEW: Type 2 diabetes is a chronic condition that affects the way your body processes blood sugar (glucose). With type 2 diabetes, your body either doesn't produce enough insulin, or it resists insulin. Symptoms often develop slowly. In fact, you can have type 2 diabetes for years and not know it. In the Philippines, 6.3% of adults have diabetes (2021 DOH data), and many are undiagnosed. Long-term complications include heart disease, stroke, kidney disease, vision loss, and nerve damage.
+CAUSES: Insulin resistance, Genetic factors, Being overweight or obese, Inactivity, Age (risk increases as you get older), Family history of diabetes, Gestational diabetes (during pregnancy), Polycystic ovary syndrome (PCOS), High blood pressure, Abnormal cholesterol levels
+SYMPTOMS: Increased thirst, Frequent urination, Increased hunger, Unintended weight loss, Fatigue, Blurred vision, Slow-healing sores, Frequent infections, Numbness or tingling in hands or feet, Darkened skin (neck, armpits)
+PREVENTION: Choose healthy foods (lower fat and calories, higher fiber), Get physically active (at least 30 minutes a day), Lose excess pounds, Avoid long periods of inactivity, Don't smoke, Control blood pressure and cholesterol, Get regular health screenings
+WHEN_TO_SEE_DOCTOR: See a doctor if you notice any possible diabetes symptoms. Early diagnosis prevents complications. If already diagnosed, follow your treatment plan and see your doctor regularly to monitor blood sugar, blood pressure, cholesterol, kidney function, and eye health.
+RELATED_SLUGS: ischemic-heart-disease, hypertension, chronic-kidney-disease, stroke
+SOURCE: WHO
+SOURCE_URL: https://www.who.int/news-room/fact-sheets/detail/diabetes
+
+================================================================================
+DISEASE #5: HYPERTENSION (HIGH BLOOD PRESSURE)
+================================================================================
+
+DISEASE_NAME: Hypertension
+SLUG: hypertension
+CATEGORY: Cardiovascular
+SHORT_DESCRIPTION: A chronic condition where the force of blood against artery walls is consistently too high (≥140/90 mmHg).
+DESCRIPTION: High blood pressure, or hypertension, occurs when the force of blood pushing against the walls of your blood vessels is consistently too high. Over time, this damages your arteries and organs.
+ICON: HeartPulse
+OVERVIEW: Hypertension is often called the "silent killer" because it typically has no symptoms until it has caused significant damage. In the Philippines, 28% of adults have hypertension (2021 DOH National Nutrition Survey), and many don't know it. If left untreated, high blood pressure increases the risk of heart attack, stroke, kidney disease, and other serious health problems. Blood pressure is measured in millimeters of mercury (mmHg) with two numbers: systolic (pressure when heart beats) over diastolic (pressure when heart rests). Normal is below 120/80 mmHg; hypertension is 140/90 mmHg or higher.
+CAUSES: High salt intake, Obesity, Physical inactivity, Tobacco use, Excessive alcohol consumption, Chronic stress, Family history, Age (risk increases with age), Chronic kidney disease, Sleep apnea, Certain medications (birth control pills, decongestants)
+SYMPTOMS: Usually NO symptoms (silent killer), Severe headache (hypertensive crisis), Shortness of breath, Nosebleed (rare), Flushing, Dizziness, Chest pain (emergency), Vision changes (emergency)
+PREVENTION: Eat a healthy diet (DASH diet: fruits, vegetables, whole grains, low-fat dairy), Reduce sodium intake (less than 5g salt per day), Maintain a healthy weight, Be physically active (at least 150 minutes moderate exercise per week), Limit alcohol, Don't smoke, Manage stress, Get regular blood pressure checks
+WHEN_TO_SEE_DOCTOR: Get your blood pressure checked regularly (at least every 2 years if normal, more often if elevated or if you have risk factors). Seek immediate medical attention if you have severely high blood pressure (180/120 or higher) with symptoms like severe headache, chest pain, shortness of breath, or vision changes. If diagnosed with hypertension, follow your treatment plan and monitor blood pressure at home.
+RELATED_SLUGS: ischemic-heart-disease, stroke, chronic-kidney-disease, diabetes-mellitus
+SOURCE: WHO
+SOURCE_URL: https://www.who.int/news-room/fact-sheets/detail/hypertension
+
+================================================================================
+DISEASE #6: CHRONIC OBSTRUCTIVE PULMONARY DISEASE (COPD)
+================================================================================
+
+DISEASE_NAME: Chronic Obstructive Pulmonary Disease (COPD)
+SLUG: copd
+CATEGORY: Respiratory
+SHORT_DESCRIPTION: A progressive lung disease that makes it hard to breathe due to airflow blockage and lung damage.
+DESCRIPTION: COPD is a group of lung diseases, including emphysema and chronic bronchitis, that cause breathing difficulties. The main cause is long-term exposure to irritating gases or particulate matter, most often from cigarette smoke.
+ICON: Wind
+OVERVIEW: COPD is a chronic inflammatory lung disease that blocks airflow from the lungs, making it progressively harder to breathe. The two main forms are emphysema (damage to air sacs) and chronic bronchitis (inflammation and mucus in airways). Smoking is the leading cause, but long-term exposure to air pollution, occupational dust, and chemicals also contribute. COPD is a major cause of disability and the 3rd leading cause of death worldwide. While there is no cure, treatment can slow progression, relieve symptoms, and improve quality of life.
+CAUSES: Cigarette smoking (primary cause), Long-term exposure to secondhand smoke, Air pollution, Occupational exposure to dust/fumes/chemicals, Indoor air pollution (cooking with biomass fuels), Alpha-1 antitrypsin deficiency (genetic), Respiratory infections in childhood
+SYMPTOMS: Shortness of breath (especially during physical activities), Wheezing, Chest tightness, Chronic cough with mucus (clear, white, yellow, or greenish), Frequent respiratory infections, Fatigue, Unintended weight loss (in later stages), Swelling in ankles/feet/legs
+PREVENTION: Don't smoke and avoid secondhand smoke, Avoid lung irritants (air pollution, chemical fumes, dust), Wear protective equipment if exposed to occupational hazards, Prevent respiratory infections (get flu and pneumococcal vaccines, wash hands), Maintain good indoor air quality
+WHEN_TO_SEE_DOCTOR: See a doctor if you have chronic cough, shortness of breath, wheezing, or frequent respiratory infections. If you're a smoker or former smoker over 40, get screened for COPD. Seek immediate care if you have severe shortness of breath, blue lips or fingernails, rapid heartbeat, confusion, or difficulty talking.
+RELATED_SLUGS: asthma, pneumonia, lung-cancer, tuberculosis
+SOURCE: WHO
+SOURCE_URL: https://www.who.int/news-room/fact-sheets/detail/chronic-obstructive-pulmonary-disease-(copd)
+
+================================================================================
+DISEASE #7: CHRONIC KIDNEY DISEASE
+================================================================================
+
+DISEASE_NAME: Chronic Kidney Disease
+SLUG: chronic-kidney-disease
+CATEGORY: Renal
+SHORT_DESCRIPTION: A gradual loss of kidney function over time, often leading to end-stage renal disease requiring dialysis or transplant.
+DESCRIPTION: Chronic kidney disease (CKD) occurs when your kidneys become damaged and can't filter blood as well as they should. This causes waste and fluid to build up in your body.
+ICON: Droplet
+OVERVIEW: Chronic kidney disease is the gradual loss of kidney function over months or years. The kidneys filter waste and excess fluids from the blood, regulate blood pressure, and produce hormones. When damaged, waste builds up in the body, leading to serious health problems. The main causes are diabetes and high blood pressure. In the Philippines, CKD is a leading cause of hospitalization, and dialysis centers are found in every major city. Early stages have few symptoms, so regular screening is important for those at risk. Advanced CKD may require dialysis or kidney transplant.
+CAUSES: Diabetes (leading cause), High blood pressure (second leading cause), Glomerulonephritis (inflammation of kidney filters), Polycystic kidney disease (genetic), Prolonged obstruction (enlarged prostate, kidney stones), Recurrent kidney infections, Long-term use of NSAIDs (painkillers), Lupus and other autoimmune diseases
+SYMPTOMS: Often NO symptoms in early stages, Fatigue and weakness, Swelling in feet/ankles/hands/face, Shortness of breath, Nausea and vomiting, Loss of appetite, Sleep problems, Decreased mental sharpness, Muscle cramps, Persistent itching, Chest pain, High blood pressure, Changes in urination (more/less frequent, foamy, blood in urine)
+PREVENTION: Manage diabetes (keep blood sugar in target range), Control blood pressure, Maintain a healthy weight, Eat a heart-healthy diet (low in salt and fat), Exercise regularly, Don't smoke, Limit alcohol, Avoid overuse of NSAIDs and other medications that can harm kidneys, Get regular kidney function tests if at risk
+WHEN_TO_SEE_DOCTOR: See a doctor if you have risk factors (diabetes, high blood pressure, family history of kidney disease) for regular screening. Seek care if you notice signs of kidney disease such as swelling, changes in urination, persistent fatigue, or shortness of breath. If you have advanced kidney disease, work closely with a nephrologist (kidney specialist).
+RELATED_SLUGS: diabetes-mellitus, hypertension, lupus, ischemic-heart-disease
+SOURCE: WHO
+SOURCE_URL: https://www.who.int/news-room/fact-sheets/detail/chronic-kidney-disease
+
+================================================================================
+DISEASE #8: ASTHMA
+================================================================================
+
+DISEASE_NAME: Asthma
+SLUG: asthma
+CATEGORY: Respiratory
+SHORT_DESCRIPTION: A chronic respiratory condition where airways become inflamed and narrowed, causing breathing difficulties.
+DESCRIPTION: Asthma is a condition in which your airways narrow and swell and may produce extra mucus. This can make breathing difficult and trigger coughing, wheezing, and shortness of breath.
+ICON: Wind
+OVERVIEW: Asthma is a chronic inflammatory disease of the airways that affects 6-10% of Filipinos, both children and adults. During an asthma attack, the muscles around the airways tighten, the lining becomes inflamed and swollen, and mucus production increases—all making it hard to breathe. Asthma can't be cured, but symptoms can be controlled with proper treatment. Triggers vary from person to person and include allergens (pollen, dust mites, mold, pet dander), respiratory infections, physical activity, cold air, air pollution, smoke, and stress.
+CAUSES: Genetic predisposition, Allergens (pollen, dust mites, mold, pet dander, cockroaches), Respiratory infections (especially in childhood), Air pollution and smoke, Occupational exposures (chemical fumes, dust), Physical activity (exercise-induced asthma), Cold air, Strong emotions and stress, Certain medications (aspirin, beta-blockers), Food additives (sulfites)
+SYMPTOMS: Shortness of breath, Chest tightness or pain, Wheezing (whistling sound when exhaling), Coughing (especially at night or early morning), Trouble sleeping due to breathing problems, Worsening symptoms with respiratory infections (cold, flu), Symptoms triggered by exercise or allergens
+PREVENTION: Identify and avoid triggers, Keep your home clean (reduce dust, mold, pet dander), Use air conditioning/air purifiers, Avoid outdoor activities when pollen or pollution levels are high, Don't smoke and avoid secondhand smoke, Get flu and pneumonia vaccines, Exercise regularly but warm up properly, Take preventive medications as prescribed
+WHEN_TO_SEE_DOCTOR: See a doctor if you have frequent coughing/wheezing, shortness of breath, or chest tightness. If diagnosed with asthma, work with your doctor to create an asthma action plan. Seek emergency care if: severe shortness of breath, blue lips or face, rapid worsening of symptoms, no improvement after using quick-relief inhaler, difficulty walking or talking due to shortness of breath.
+RELATED_SLUGS: copd, pneumonia, acute-respiratory-infections, allergies
+SOURCE: WHO
+SOURCE_URL: https://www.who.int/news-room/fact-sheets/detail/asthma
+
+================================================================================
+DISEASE #9: THYROID DISORDERS
+================================================================================
+
+DISEASE_NAME: Thyroid Disorders
+SLUG: thyroid-disorders
+CATEGORY: Endocrine
+SHORT_DESCRIPTION: Conditions affecting the thyroid gland, leading to overproduction (hyperthyroidism) or underproduction (hypothyroidism) of thyroid hormones.
+DESCRIPTION: The thyroid is a small gland in the neck that produces hormones regulating metabolism. Thyroid disorders include hypothyroidism (underactive), hyperthyroidism (overactive), and goiter (enlarged thyroid).
+ICON: Activity
+OVERVIEW: The thyroid gland produces hormones that regulate metabolism, energy, growth, and development. When the thyroid produces too much hormone (hyperthyroidism), metabolism speeds up. When it produces too little (hypothyroidism), metabolism slows down. Goiter, an enlarged thyroid, is common in mountainous regions of the Philippines with low iodine in soil and water. The DOH promotes salt iodization to prevent goiter. Other thyroid disorders include autoimmune diseases (Graves' disease, Hashimoto's thyroiditis), thyroid nodules, and thyroid cancer.
+CAUSES: Iodine deficiency (goiter, hypothyroidism), Autoimmune diseases (Graves' disease causing hyperthyroidism, Hashimoto's causing hypothyroidism), Thyroid nodules or cancer, Pituitary gland problems, Pregnancy (postpartum thyroiditis), Certain medications (lithium, amiodarone), Radiation therapy to neck, Thyroid surgery
+SYMPTOMS: HYPOTHYROIDISM - Fatigue, Weight gain, Cold intolerance, Dry skin and hair, Hair loss, Constipation, Depression, Muscle weakness, Slowed heart rate. HYPERTHYROIDISM - Weight loss, Rapid heartbeat, Increased appetite, Nervousness/anxiety, Tremors, Sweating, Heat intolerance, Frequent bowel movements, Enlarged thyroid (goiter), Bulging eyes (Graves' disease)
+PREVENTION: Ensure adequate iodine intake (use iodized salt, eat seafood, dairy), Regular thyroid screening if you have family history or symptoms, Avoid excessive iodine supplementation, Manage stress, Don't smoke
+WHEN_TO_SEE_DOCTOR: See a doctor if you notice symptoms of thyroid dysfunction (unexplained weight changes, fatigue, heart palpitations, swelling in neck, changes in hair/skin). If you have a family history of thyroid disease, get regular screening. If you have thyroid disease, follow up regularly to monitor thyroid hormone levels and adjust medication.
+RELATED_SLUGS: diabetes-mellitus, goiter, autoimmune-diseases, metabolic-syndrome
+SOURCE: WHO
+SOURCE_URL: https://www.who.int/health-topics/thyroid
+
+================================================================================
+DISEASE #10: SYSTEMIC LUPUS ERYTHEMATOSUS (LUPUS)
+================================================================================
+
+DISEASE_NAME: Systemic Lupus Erythematosus (Lupus)
+SLUG: lupus
+CATEGORY: Autoimmune
+SHORT_DESCRIPTION: A chronic autoimmune disease where the immune system attacks the body's own tissues, affecting joints, skin, kidneys, heart, and other organs.
+DESCRIPTION: Lupus is an autoimmune disease where the body's immune system becomes hyperactive and attacks normal, healthy tissue. This results in inflammation, swelling, and damage to joints, skin, kidneys, blood, heart, and lungs.
+ICON: Shield
+OVERVIEW: Systemic lupus erythematosus (SLE) is a chronic autoimmune disease that can affect almost any organ system. The immune system mistakenly attacks healthy tissue, causing widespread inflammation and damage. Lupus affects women 9 times more often than men, typically appearing between ages 15-45. The characteristic "butterfly rash" across the cheeks and nose is a common sign, but symptoms vary widely. There is no cure, but treatment can control symptoms and prevent organ damage. Lupus can range from mild to life-threatening, with periods of flares (active disease) and remission.
+CAUSES: Autoimmune dysfunction (immune system attacks own tissues), Genetic predisposition, Environmental triggers (sunlight, infections, medications), Hormonal factors (affects women more, often starts during reproductive years), Epstein-Barr virus and other infections, Certain medications (drug-induced lupus)
+SYMPTOMS: Butterfly-shaped facial rash (across cheeks and nose), Skin rashes on other parts of body, Photosensitivity (rash after sun exposure), Joint pain and swelling, Fatigue, Fever, Chest pain (inflammation of heart/lung lining), Hair loss, Mouth sores, Raynaud's phenomenon (fingers/toes turn white or blue in cold), Kidney problems, Neurological issues (headaches, confusion, memory problems)
+PREVENTION: No known prevention, Early diagnosis and treatment crucial, Avoid sun exposure (wear sunscreen, protective clothing), Don't smoke, Eat a healthy diet, Exercise regularly, Manage stress, Get adequate rest
+WHEN_TO_SEE_DOCTOR: See a doctor if you develop unexplained rash, ongoing fever, persistent joint pain and swelling, or extreme fatigue. If you have lupus, see your doctor regularly to monitor disease activity and organ function (kidneys, heart). Seek immediate care for chest pain, severe shortness of breath, severe headache, confusion, or seizures.
+RELATED_SLUGS: rheumatoid-arthritis, chronic-kidney-disease, autoimmune-diseases, inflammatory-diseases
+SOURCE: CDC
+SOURCE_URL: https://www.cdc.gov/lupus/facts/index.html
+
+================================================================================
+DISEASE #11: PNEUMONIA
+================================================================================
+
+DISEASE_NAME: Pneumonia
+SLUG: pneumonia
+CATEGORY: Infectious - Respiratory
+SHORT_DESCRIPTION: An infection that inflames air sacs in one or both lungs, which may fill with fluid or pus.
+DESCRIPTION: Pneumonia can be caused by bacteria, viruses, or fungi. It ranges from mild to life-threatening and is most serious in infants, young children, elderly adults, and people with weakened immune systems.
+ICON: Wind
+OVERVIEW: Pneumonia is an infection of the lungs that causes the air sacs (alveoli) to fill with fluid or pus, making it difficult to breathe. It can affect one or both lungs. In the Philippines, pneumonia is a top 10 cause of morbidity and mortality, especially among children under 5 and elderly adults. Common causes include bacteria (Streptococcus pneumoniae), viruses (influenza, RSV, COVID-19), and fungi. Pneumonia can develop on its own or after a cold or flu. Vaccines can prevent some types of pneumonia.
+CAUSES: Bacteria (most common: Streptococcus pneumoniae), Viruses (influenza, RSV, COVID-19, adenovirus), Fungi (in people with weakened immune systems), Aspiration (inhaling food, drink, vomit, or saliva into lungs), Hospital-acquired pneumonia (in hospitalized patients, especially on ventilators)
+SYMPTOMS: Cough (may produce phlegm that is green, yellow, or bloody), Fever and chills, Shortness of breath, Chest pain when breathing or coughing, Fatigue, Nausea and vomiting, Diarrhea, Confusion (especially in elderly), Lower than normal body temperature (in elderly or immunocompromised)
+PREVENTION: Get vaccinated (pneumococcal vaccine, flu vaccine, COVID-19 vaccine), Practice good hygiene (wash hands frequently), Don't smoke and avoid secondhand smoke, Maintain a healthy lifestyle (proper nutrition, exercise, adequate sleep), Manage chronic conditions (diabetes, heart disease, COPD), Avoid people who are sick
+WHEN_TO_SEE_DOCTOR: See a doctor if you have difficulty breathing, chest pain, persistent fever (102°F/39°C or higher), or cough that produces pus. Seek immediate care if you have: severe difficulty breathing, bluish lips or fingernails, confusion, rapid breathing, severe chest pain, or if you're in a high-risk group (infant, elderly, immunocompromised, chronic illness).
+RELATED_SLUGS: tuberculosis, influenza, covid-19, acute-respiratory-infections, copd
+SOURCE: WHO
+SOURCE_URL: https://www.who.int/news-room/fact-sheets/detail/pneumonia
+
+================================================================================
+DISEASE #12: TUBERCULOSIS (TB)
+================================================================================
+
+DISEASE_NAME: Tuberculosis
+SLUG: tuberculosis
+CATEGORY: Infectious - Respiratory
+SHORT_DESCRIPTION: A bacterial infection caused by Mycobacterium tuberculosis that primarily affects the lungs but can spread to other organs.
+DESCRIPTION: TB is spread through the air when people with active TB disease cough, sneeze, or speak. Most people infected with TB bacteria don't have symptoms (latent TB), but about 10% develop active TB disease.
+ICON: AlertCircle
+OVERVIEW: Tuberculosis is a contagious bacterial infection that primarily affects the lungs but can spread to other parts of the body (kidneys, spine, brain). The Philippines is the 4th highest TB burden country globally (WHO 2022). TB spreads through airborne droplets when an infected person coughs or sneezes. Many people have latent TB infection (bacteria in body but inactive, no symptoms, not contagious) which can become active TB disease later, especially if the immune system weakens. TB is curable with proper antibiotic treatment, but drug-resistant TB is an emerging concern.
+CAUSES: Mycobacterium tuberculosis bacteria, Spread through air (coughing, sneezing, speaking, singing), Close contact with active TB patients, Weakened immune system (HIV, malnutrition, diabetes, kidney disease, cancer treatment), Crowded or poorly ventilated living conditions, Poverty and lack of access to healthcare
+SYMPTOMS: Persistent cough lasting more than 2 weeks, Coughing up blood or phlegm, Chest pain, Weakness and fatigue, Unintentional weight loss, Loss of appetite, Fever, Night sweats, Chills, (If TB spreads outside lungs: symptoms depend on organs affected)
+PREVENTION: BCG vaccine (given to infants in the Philippines), Screen and treat latent TB infection, Ensure good ventilation in living and working spaces, Cover mouth/nose when coughing or sneezing, Avoid close contact with people who have active TB, Complete full course of TB treatment to prevent drug resistance, Manage conditions that weaken immune system (HIV, diabetes)
+WHEN_TO_SEE_DOCTOR: See a doctor immediately if you have a cough lasting more than 2 weeks, especially if accompanied by fever, night sweats, weight loss, or coughing up blood. Get screened if you've had close contact with someone with active TB, or if you have HIV, diabetes, or other conditions that weaken the immune system. If diagnosed with TB, strictly follow the treatment plan (6 months of multiple antibiotics taken daily).
+RELATED_SLUGS: pneumonia, hiv-aids, diabetes-mellitus, malnutrition, covid-19
+SOURCE: WHO
+SOURCE_URL: https://www.who.int/news-room/fact-sheets/detail/tuberculosis
+
+================================================================================
+DISEASE #13: DENGUE FEVER
+================================================================================
+
+DISEASE_NAME: Dengue Fever
+SLUG: dengue-fever
+CATEGORY: Infectious - Vector-borne
+SHORT_DESCRIPTION: A mosquito-borne viral infection transmitted by Aedes aegypti mosquitoes, common in tropical and subtropical regions.
+DESCRIPTION: Dengue is caused by one of four dengue viruses. Infection with one type usually provides lifelong immunity to that type, but only short-term immunity to the other types. Subsequent infections increase the risk of severe dengue.
+ICON: Bug
+OVERVIEW: Dengue fever is the #1 mosquito-borne disease in the Philippines, endemic year-round with peaks during rainy season (June-November). It's transmitted by Aedes aegypti mosquitoes, which bite during the day (early morning and late afternoon). There are four dengue virus serotypes (DENV-1, DENV-2, DENV-3, DENV-4). Most infections cause mild flu-like symptoms, but some develop severe dengue (dengue hemorrhagic fever or dengue shock syndrome), which can be life-threatening. There is no specific treatment, so prevention focuses on mosquito control. The DOH promotes the 4S strategy: Search and destroy mosquito breeding sites, Self-protection, Seek early consultation, Support fogging in hotspots.
+CAUSES: Dengue virus (DENV-1, DENV-2, DENV-3, DENV-4), Transmitted by Aedes aegypti mosquitoes (less commonly Aedes albopictus), Mosquitoes breed in stagnant water (containers, tires, flower pots, rain gutters), Peak transmission during rainy season, Urbanization and poor water storage practices
+SYMPTOMS: High fever (40°C/104°F), Severe headache, Pain behind the eyes, Joint and muscle pain ("breakbone fever"), Nausea and vomiting, Swollen glands, Rash (appears 2-5 days after fever). WARNING SIGNS OF SEVERE DENGUE: Severe abdominal pain, Persistent vomiting, Bleeding (nose, gums, vomit, stool), Fatigue/restlessness, Rapid breathing, Cold/clammy skin
+PREVENTION: Eliminate mosquito breeding sites (remove stagnant water from containers, tires, gutters), Use mosquito repellent (containing DEET, picaridin, or oil of lemon eucalyptus), Wear long sleeves and pants, Use mosquito nets and screens, Support community fogging and larviciding, Dengvaxia vaccine (only for those with previous dengue infection, ages 9-45)
+WHEN_TO_SEE_DOCTOR: See a doctor if you develop high fever with severe headache, eye pain, joint/muscle pain, or rash—especially during dengue season or after traveling to dengue-endemic areas. Seek IMMEDIATE emergency care for warning signs of severe dengue: severe abdominal pain, persistent vomiting, bleeding, difficulty breathing, cold/clammy skin, fatigue/restlessness. Most critical period is when fever subsides (days 3-7).
+RELATED_SLUGS: malaria, chikungunya, zika-virus, yellow-fever, mosquito-borne-diseases
+SOURCE: WHO
+SOURCE_URL: https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue
+
+================================================================================
+DISEASE #14: ACUTE RESPIRATORY INFECTIONS (ARI)
+================================================================================
+
+DISEASE_NAME: Acute Respiratory Infections
+SLUG: acute-respiratory-infections
+CATEGORY: Infectious - Respiratory
+SHORT_DESCRIPTION: Infections of the respiratory tract ranging from common cold to pneumonia, caused by viruses or bacteria.
+DESCRIPTION: ARIs affect the nose, throat, airways, and lungs. They include upper respiratory infections (common cold, sinusitis, pharyngitis) and lower respiratory infections (bronchitis, pneumonia).
+ICON: Wind
+OVERVIEW: Acute respiratory infections are the top cause of outpatient consultations in Philippine health centers. Most ARIs are caused by viruses (rhinovirus, coronavirus, influenza, RSV, adenovirus) and are self-limiting. Bacterial ARIs (Streptococcus, Haemophilus, Mycoplasma) may require antibiotics. ARIs spread through respiratory droplets (coughing, sneezing) and contaminated surfaces. Children, elderly, and those with chronic conditions are at higher risk of complications. Prevention focuses on hygiene, vaccination, good nutrition, and avoiding crowded places when sick.
+CAUSES: Viruses (rhinovirus, coronavirus, influenza, RSV, adenovirus, parainfluenza), Bacteria (Streptococcus pneumoniae, Haemophilus influenzae, Mycoplasma), Spread through respiratory droplets and contaminated surfaces, Risk factors: young age, elderly, malnutrition, crowding, air pollution, smoking, lack of breastfeeding (infants)
+SYMPTOMS: UPPER RESPIRATORY INFECTION - Runny or stuffy nose, Sore throat, Sneezing, Cough, Mild fever, Headache, Fatigue. LOWER RESPIRATORY INFECTION - Persistent cough (with phlegm), Fever, Shortness of breath, Chest pain, Wheezing, Rapid breathing (especially in children)
+PREVENTION: Frequent handwashing with soap and water, Cover nose and mouth when coughing or sneezing, Avoid touching face (eyes, nose, mouth), Avoid close contact with sick people, Stay home when sick, Get vaccinated (influenza, pneumococcal), Ensure good nutrition and adequate sleep, Avoid smoking and secondhand smoke, Ensure good ventilation
+WHEN_TO_SEE_DOCTOR: See a doctor if symptoms worsen or don't improve after a few days, or if you develop: high fever (>38.5°C/101.3°F for adults; >38°C/100.4°F for children), difficulty breathing, chest pain, persistent vomiting, severe headache, symptoms in high-risk groups (infants, elderly, pregnant, immunocompromised, chronic conditions). Seek emergency care for: severe difficulty breathing, blue lips or face, confusion, inability to drink fluids.
+RELATED_SLUGS: influenza, pneumonia, covid-19, common-cold, bronchitis
+SOURCE: WHO
+SOURCE_URL: https://www.who.int/health-topics/respiratory-infections
+
+================================================================================
+DISEASE #15: DIARRHEAL DISEASES / ACUTE GASTROENTERITIS
+================================================================================
+
+DISEASE_NAME: Diarrheal Diseases
+SLUG: diarrheal-diseases
+CATEGORY: Infectious - Gastrointestinal
+SHORT_DESCRIPTION: Infection of the digestive tract causing loose, watery stools, often due to viruses, bacteria, or parasites.
+DESCRIPTION: Diarrheal diseases are usually caused by intestinal infection transmitted through contaminated food or water, or from person to person. The main danger is dehydration, especially in young children.
+ICON: Droplet
+OVERVIEW: Diarrheal diseases are a top 5 cause of morbidity in the Philippines, especially in children under 5. They're caused by viruses (rotavirus, norovirus), bacteria (E. coli, Salmonella, Shigella, Campylobacter), or parasites (Giardia, Entamoeba). Transmission occurs through contaminated food/water (fecal-oral route) or person-to-person contact. The main danger is dehydration, which can be fatal in young children and elderly if not treated. Prevention focuses on safe water, proper sanitation, handwashing, and food safety. Oral rehydration solution (ORS) is a simple, life-saving treatment. The Philippines has a strong rotavirus vaccination program for infants.
+CAUSES: Viruses (rotavirus, norovirus, adenovirus), Bacteria (E. coli, Salmonella, Shigella, Campylobacter, Vibrio cholerae), Parasites (Giardia, Cryptosporidium, Entamoeba), Contaminated food or water, Poor sanitation and hygiene, Malnutrition, Lack of breastfeeding (infants), Crowded living conditions
+SYMPTOMS: Frequent loose or watery stools, Abdominal cramps and pain, Nausea and vomiting, Fever, Urgency to have a bowel movement, Bloating. SIGNS OF DEHYDRATION: Thirst, Dry mouth and tongue, Decreased urination, Sunken eyes, Lethargy, Irritability (children), Dry skin (loss of elasticity)
+PREVENTION: Drink safe water (boiled or treated), Practice good hygiene (wash hands with soap after toilet, before eating/preparing food), Prepare and store food safely (cook thoroughly, refrigerate promptly), Breastfeed infants exclusively for 6 months, Ensure proper sanitation (use toilets, proper waste disposal), Rotavirus vaccine (infants), Improve nutrition (especially vitamin A and zinc)
+WHEN_TO_SEE_DOCTOR: See a doctor if diarrhea lasts more than 2 days in adults or 24 hours in children, or if you notice: signs of severe dehydration, blood or pus in stool, black/tarry stools, severe abdominal pain, high fever (>38.5°C/101.3°F), diarrhea in infants/elderly/pregnant/immunocompromised. EMERGENCY: severe dehydration, inability to drink, decreased consciousness, no urine for 8+ hours, sunken eyes, very dry mouth.
+RELATED_SLUGS: cholera, typhoid-fever, rotavirus, food-poisoning, dehydration
+SOURCE: WHO
+SOURCE_URL: https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease
+
+================================================================================
+DISEASE #16: INFLUENZA (FLU)
+================================================================================
+
+DISEASE_NAME: Influenza
+SLUG: influenza
+CATEGORY: Infectious - Respiratory
+SHORT_DESCRIPTION: A contagious respiratory illness caused by influenza viruses, with seasonal outbreaks every year.
+DESCRIPTION: Influenza (flu) is different from the common cold. Flu comes on suddenly and is usually more severe, with high fever, body aches, and fatigue lasting 1-2 weeks.
+ICON: Thermometer
+OVERVIEW: Influenza is a contagious respiratory illness caused by influenza A and B viruses. In the Philippines, seasonal flu occurs year-round but peaks during rainy and cold months (June-September, December-February). Flu spreads easily through respiratory droplets when infected people cough, sneeze, or talk. Most people recover within 1-2 weeks, but flu can cause severe illness and death, especially in young children, elderly, pregnant women, and those with chronic conditions. Annual flu vaccination is the best prevention, as flu viruses change every year.
+CAUSES: Influenza A and B viruses, Spread through respiratory droplets (coughing, sneezing, talking), Contact with contaminated surfaces then touching face, Risk factors: age (young children, elderly), pregnancy, chronic conditions (asthma, diabetes, heart disease), weakened immune system, obesity
+SYMPTOMS: Sudden onset of high fever (38-40°C/100-104°F), Chills and sweats, Dry cough, Sore throat, Runny or stuffy nose, Muscle and body aches, Headache, Fatigue and weakness (can last weeks), Nausea, vomiting, diarrhea (more common in children)
+PREVENTION: Get annual flu vaccine (ideally before flu season), Wash hands frequently with soap and water, Avoid touching eyes, nose, mouth, Cover coughs and sneezes, Avoid close contact with sick people, Stay home when sick, Clean and disinfect surfaces, Maintain good health (adequate sleep, physical activity, stress management, nutritious diet)
+WHEN_TO_SEE_DOCTOR: Most healthy people can treat flu at home with rest and fluids. See a doctor if you're in a high-risk group (young child, elderly, pregnant, chronic condition) or if you develop: difficulty breathing, chest pain, persistent vomiting, confusion, severe weakness/dizziness, seizures, worsening of chronic conditions. Antiviral medications (oseltamivir/Tamiflu) work best if started within 48 hours of symptom onset.
+RELATED_SLUGS: pneumonia, covid-19, acute-respiratory-infections, common-cold, h1n1
+SOURCE: WHO
+SOURCE_URL: https://www.who.int/news-room/fact-sheets/detail/influenza-(seasonal)
+
+================================================================================
+DISEASE #17: HEPATITIS A
+================================================================================
+
+DISEASE_NAME: Hepatitis A
+SLUG: hepatitis-a
+CATEGORY: Infectious - Gastrointestinal/Liver
+SHORT_DESCRIPTION: A viral liver infection spread through contaminated food and water, causing inflammation of the liver.
+DESCRIPTION: Hepatitis A is a highly contagious liver infection caused by the hepatitis A virus. Unlike hepatitis B and C, hepatitis A does not cause chronic liver disease and is rarely fatal, but it can cause debilitating symptoms.
+ICON: Shield
+OVERVIEW: Hepatitis A is a liver infection caused by the hepatitis A virus (HAV), spread through the fecal-oral route (contaminated food, water, or close contact with infected person). It's endemic in the Philippines, especially in areas with poor sanitation. Most people recover completely within a few months, and once infected, you have lifelong immunity. There is no chronic form (unlike hepatitis B/C), but it can cause acute liver failure in rare cases. The hepatitis A vaccine is safe and effective. Good hygiene and safe food/water are key to prevention.
+CAUSES: Hepatitis A virus (HAV), Consuming contaminated food or water (fecal-oral transmission), Close personal contact with infected person (household, sexual), Eating raw or undercooked shellfish from contaminated water, Poor sanitation and hygiene, Lack of safe water, Crowded living conditions, Travel to endemic areas
+SYMPTOMS: Often NO symptoms (especially children under 6), Fatigue and malaise, Sudden nausea and vomiting, Abdominal pain (especially upper right, near liver), Loss of appetite, Low-grade fever, Dark urine, Clay-colored stools, Joint pain, Jaundice (yellowing of skin and eyes)
+PREVENTION: Get hepatitis A vaccine (2 doses, 6-12 months apart), Practice good hygiene (wash hands thoroughly after toilet, before eating/preparing food), Drink safe water (boiled or treated), Avoid raw or undercooked food (especially shellfish), Peel and wash fruits and vegetables, Avoid ice made from untreated water, Ensure proper sanitation and sewage disposal
+WHEN_TO_SEE_DOCTOR: See a doctor if you develop symptoms of hepatitis A (jaundice, dark urine, severe fatigue, abdominal pain, vomiting). Get vaccinated if you're traveling to endemic areas, work in healthcare/food service, have chronic liver disease, or are at increased risk. Most people recover on their own with supportive care (rest, adequate nutrition, fluids). Seek immediate care if you develop signs of acute liver failure (severe vomiting, confusion, severe drowsiness).
+RELATED_SLUGS: hepatitis-b, hepatitis-c, typhoid-fever, diarrheal-diseases, liver-disease
+SOURCE: WHO
+SOURCE_URL: https://www.who.int/news-room/fact-sheets/detail/hepatitis-a
+
+================================================================================
+DISEASE #18: LEPTOSPIROSIS
+================================================================================
+
+DISEASE_NAME: Leptospirosis
+SLUG: leptospirosis
+CATEGORY: Infectious - Bacterial (Zoonotic)
+SHORT_DESCRIPTION: A bacterial infection spread through water contaminated with animal urine, especially common during floods.
+DESCRIPTION: Leptospirosis is caused by bacteria of the genus Leptospira. In the Philippines, it's strongly associated with flooding and contact with floodwater contaminated by rat urine.
+ICON: Droplet
+OVERVIEW: Leptospirosis is endemic in the Philippines with cases spiking during typhoon and rainy season (June-November). It's caused by Leptospira bacteria found in the urine of infected animals, especially rats. Humans get infected through direct contact with contaminated water (wading in floods), soil, or animal urine, especially through cuts/wounds or mucous membranes (eyes, nose, mouth). Without treatment, it can cause kidney damage, liver failure, respiratory distress, meningitis, and death. The DOH recommends doxycycline prophylaxis for people exposed to floodwater, and public health campaigns emphasize avoiding flood exposure.
+CAUSES: Leptospira bacteria (spiral-shaped), Spread through urine of infected animals (rats, dogs, cattle, pigs), Contact with contaminated water/soil/mud (especially floods), Entry through cuts, abrasions, or mucous membranes, Risk factors: flooding, farming, sewage work, outdoor recreation, lack of protective footwear
+SYMPTOMS: First phase (7-10 days): Sudden high fever, Severe headache, Muscle pain (especially calves and lower back), Chills, Red eyes (conjunctival suffusion), Nausea and vomiting, Diarrhea, Abdominal pain, Rash. Second phase (Weil's disease, severe): Jaundice (yellowing of skin/eyes), Kidney failure, Liver failure, Bleeding, Respiratory distress, Meningitis
+PREVENTION: Avoid wading in floodwater (wear boots if unavoidable), Wear protective clothing and footwear during high-risk activities (farming, cleaning after floods), Control rodent populations, Ensure proper waste disposal and sanitation, Cover cuts and wounds with waterproof bandages, Doxycycline prophylaxis (200mg once weekly for those regularly exposed to contaminated water), Wash and disinfect after exposure to potentially contaminated water
+WHEN_TO_SEE_DOCTOR: See a doctor immediately if you develop high fever, severe headache, muscle pain, or red eyes within 2 weeks of exposure to floodwater or animal urine. Early antibiotic treatment (penicillin or doxycycline) significantly reduces severity. Seek emergency care for signs of severe disease: jaundice, difficulty breathing, bleeding, decreased urination, confusion. High-risk groups should consider prophylactic doxycycline during flood season.
+RELATED_SLUGS: dengue-fever, typhoid-fever, malaria, flood-related-diseases, rat-borne-diseases
+SOURCE: DOH Philippines
+SOURCE_URL: https://doh.gov.ph/leptospirosis
+
+================================================================================
+DISEASE #19: MEASLES
+================================================================================
+
+DISEASE_NAME: Measles
+SLUG: measles
+CATEGORY: Infectious - Vaccine-Preventable
+SHORT_DESCRIPTION: A highly contagious viral disease spread through respiratory droplets, preventable by vaccination.
+DESCRIPTION: Measles is one of the most contagious diseases. Before widespread vaccination, it caused millions of deaths annually. One infected person can infect 9 out of 10 unvaccinated people they come in contact with.
+ICON: AlertTriangle
+OVERVIEW: Measles (rubeola, "tigdas" in Filipino) is a highly contagious viral disease that can lead to serious complications and death. The Philippines experienced a major measles outbreak in 2019 with over 40,000 cases and hundreds of deaths, primarily due to declining vaccination coverage after the Dengvaxia controversy. Measles spreads through respiratory droplets and is so contagious that 90% of unvaccinated people exposed will get infected. Complications include pneumonia, encephalitis (brain inflammation), blindness, and death. The MMR vaccine (measles-mumps-rubella) is safe, effective, and provides lifelong immunity. The DOH conducts supplemental immunization activities to catch up children who missed routine vaccination.
+CAUSES: Measles virus (Morbillivirus), Spread through respiratory droplets (coughing, sneezing), Highly contagious (can remain airborne for up to 2 hours), Lack of vaccination, Vitamin A deficiency (increases severity), Malnutrition, Crowded living conditions, Travel to areas with ongoing outbreaks
+SYMPTOMS: Prodromal phase (2-4 days): High fever, Cough, Runny nose, Red watery eyes (conjunctivitis), Koplik's spots (tiny white spots inside mouth). Rash phase: Red blotchy rash starts on face/hairline, Spreads downward to trunk and limbs, Rash lasts 5-6 days then fades. COMPLICATIONS: Ear infections, Diarrhea, Pneumonia, Encephalitis, Death (especially in malnourished children)
+PREVENTION: MMR vaccine (2 doses: first at 9-12 months, second at 12-18 months in Philippines), Vitamin A supplementation for children (reduces severity and complications), Avoid contact with infected individuals, Isolation of cases (contagious from 4 days before to 4 days after rash appears), Ensure good nutrition, Support routine immunization programs
+WHEN_TO_SEE_DOCTOR: See a doctor if you or your child develops high fever with cough, runny nose, red eyes, and rash—especially if unvaccinated or unsure of vaccination status. Seek immediate care for: difficulty breathing, chest pain, severe headache, confusion, seizures, severe vomiting/diarrhea, signs of dehydration. If exposed to measles and unvaccinated, post-exposure prophylaxis (MMR vaccine or immunoglobulin) may prevent infection if given within 72 hours.
+RELATED_SLUGS: rubella, mumps, chickenpox, vaccine-preventable-diseases, pneumonia
+SOURCE: WHO
+SOURCE_URL: https://www.who.int/news-room/fact-sheets/detail/measles
+
+================================================================================
+DISEASE #20: SKIN DISEASES & INFECTIONS
+================================================================================
+
+DISEASE_NAME: Skin Diseases & Infections
+SLUG: skin-infections
+CATEGORY: Infectious - Dermatological
+SHORT_DESCRIPTION: Various bacterial, viral, fungal, or parasitic infections affecting the skin.
+DESCRIPTION: Common skin infections in the Philippines include impetigo (bacterial), cellulitis (bacterial), tinea/ringworm (fungal), and scabies (parasitic mite). These thrive in hot, humid climates.
+ICON: Activity
+OVERVIEW: Skin infections are very common in the Philippines due to the hot, humid tropical climate. They include bacterial infections (impetigo, cellulitis, folliculitis), fungal infections (tinea/ringworm, athlete's foot, candidiasis), viral infections (warts, herpes, molluscum contagiosum), and parasitic infections (scabies, lice). Poor hygiene, crowded living conditions, skin injuries, and sharing personal items increase risk. Most skin infections are treatable with proper medications (antibiotics, antifungals, or antiparasitics) and good hygiene. Some infections like impetigo and scabies are highly contagious, especially in schools and daycare centers.
+CAUSES: BACTERIAL: Staphylococcus aureus, Streptococcus (impetigo, cellulitis). FUNGAL: Dermatophytes (ringworm, athlete's foot), Candida (yeast). PARASITIC: Sarcoptes scabiei (scabies), Pediculus (lice). Risk factors: Poor hygiene, Humid climate, Crowding, Skin injuries/wounds, Sharing towels/clothing/personal items, Weakened immune system, Diabetes
+SYMPTOMS: IMPETIGO: Red sores (face, especially around nose/mouth), Honey-colored crusts, Highly contagious. CELLULITIS: Red, swollen, warm, painful area of skin, Fever. RINGWORM: Ring-shaped red rash with clearer center, Itchy, Scalp/body/feet/groin. SCABIES: Intense itching (worse at night), Pimple-like rash, Burrow tracks (thin, irregular lines), Between fingers, wrists, elbows, armpits. ATHLETE'S FOOT: Itchy, scaly rash between toes, Burning, stinging, Cracked skin
+PREVENTION: Practice good hygiene (daily bathing, handwashing), Keep skin clean and dry, Avoid sharing personal items (towels, clothing, combs, razors), Treat cuts and wounds promptly, Wear clean clothes and change socks daily, Avoid walking barefoot in public places, Don't scratch skin infections (spreads bacteria), Keep nails short and clean, Treat infected family members simultaneously (scabies, lice)
+WHEN_TO_SEE_DOCTOR: See a doctor if you develop: skin infection that doesn't improve with over-the-counter treatment, spreading redness/swelling, fever, pus or drainage, severe pain, red streaks extending from wound, signs of cellulitis, suspected scabies (treat entire household). For children with impetigo, keep home from school until 24 hours after starting antibiotics. Diabetics and immunocompromised should seek prompt care for any skin infection.
+RELATED_SLUGS: impetigo, scabies, ringworm, cellulitis, fungal-infections
+SOURCE: CDC
+SOURCE_URL: https://www.cdc.gov/groupastrep/diseases-public/impetigo.html
+
+================================================================================
+END OF DATABASE
+================================================================================
+Total Diseases: 20
+Categories: Cardiovascular (5), Respiratory (4), Endocrine (2), Infectious (9)
+Geographic Focus: Philippines
+Last Updated: October 2024
+================================================================================

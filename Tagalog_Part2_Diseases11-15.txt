@@ -1,0 +1,115 @@
+================================================================================
+TAGALOG TRANSLATIONS - DISEASES 11-15
+================================================================================
+
+================================================================================
+DISEASE #11: PNEUMONIA
+================================================================================
+
+disease_slug: pneumonia
+language_code: tl
+name: Pulmonya
+slug: pulmonya-tl
+short_description: Isang impeksyon na nagiging sanhi ng pamamaga ng mga air sacs sa isa o dalawang baga, na maaaring mapuno ng likido o nana.
+description: Ang pulmonya ay maaaring sanhi ng bacteria, virus, o fungi. Ito ay mula sa banayad hanggang sa nakabubuhay at pinakaseryoso sa mga sanggol, maliliit na bata, matatandang adulto, at mga taong may mahinang immune system.
+overview: Ang pulmonya ay isang impeksyon ng mga baga na nagiging sanhi ng pagpuno ng mga air sacs (alveoli) ng likido o nana, na ginagawang mahirap huminga. Maaari itong makaapekto sa isa o dalawang baga. Sa Pilipinas, ang pulmonya ay nasa top 10 na sanhi ng morbidity at mortality, lalo na sa mga batang wala pang 5 taon at matatandang adulto. Ang mga karaniwang sanhi ay kinabibilangan ng bacteria (Streptococcus pneumoniae), virus (influenza, RSV, COVID-19), at fungi. Ang pulmonya ay maaaring bumuo nang mag-isa o pagkatapos ng sipon o trangkaso. Ang mga bakuna ay maaaring maiwasan ang ilang uri ng pulmonya.
+
+symptoms: Ubo (maaaring maglabas ng plema na berde, dilaw, o may dugo) | Lagnat at panginginig | Hirap sa paghinga | Pananakit ng dibdib kapag humihinga o umuubo | Pagkapagod | Pagduduwal at pagsusuka | Pagtatae | Pagkalito (lalo na sa matatanda) | Mas mababa sa normal na temperatura ng katawan (sa matatanda o immunocompromised)
+
+causes: Bacteria (pinakakaraniwan: Streptococcus pneumoniae) | Virus (influenza, RSV, COVID-19, adenovirus) | Fungi (sa mga taong may mahinang immune system) | Aspiration (paglanghap ng pagkain, inumin, suka, o laway sa mga baga) | Hospital-acquired pneumonia (sa mga pasyenteng naka-ospital, lalo na sa ventilators)
+
+prevention: Magpabakuna (pneumococcal vaccine, flu vaccine, COVID-19 vaccine) | Magsanay ng mabuting kalinisan (maghugas ng kamay nang madalas) | Huwag manigarilyo at iwasan ang secondhand smoke | Panatilihin ang malusog na pamumuhay (tamang nutrisyon, ehersisyo, sapat na tulog) | Pamahalaan ang mga pangmatagalang kondisyon (diabetes, sakit sa puso, COPD) | Iwasan ang mga taong may sakit
+
+when_to_see_doctor: Makipagkita sa doktor kung mayroon kang hirap sa paghinga, pananakit ng dibdib, patuloy na lagnat (102°F/39°C o mas mataas), o ubo na naglalabas ng nana. Humingi ng agarang pag-aalaga kung mayroon ka ng: matinding hirap sa paghinga, asul na mga labi o kuko, mabilis na paghinga, matinding pananakit ng dibdib, o kung ikaw ay nasa high-risk group (sanggol, matanda, immunocompromised, may pangmatagalang sakit).
+
+affected_groups: Mga sanggol at maliliit na bata, mga matatandang 65 taong gulang pataas, mga taong may mahinang immune system, mga naninigarilyo, mga taong may pangmatagalang sakit tulad ng asthma o COPD, at mga naka-ospital na pasyente.
+
+================================================================================
+DISEASE #12: TUBERCULOSIS (TB)
+================================================================================
+
+disease_slug: tuberculosis
+language_code: tl
+name: Tuberkulosis (TB)
+slug: tuberkulosis-tl
+short_description: Isang bacterial infection na sanhi ng Mycobacterium tuberculosis na pangunahing nakakaapekto sa mga baga ngunit maaaring kumalat sa iba pang mga organo.
+description: Ang TB ay kumakalat sa hangin kapag ang mga taong may aktibong TB disease ay umuubo, bumabahing, o nagsasalita. Karamihan sa mga taong nahawaan ng TB bacteria ay walang sintomas (latent TB), ngunit mga 10% ay bumubuo ng aktibong TB disease.
+overview: Ang tuberkulosis ay isang nakakahawang bacterial infection na pangunahing nakakaapekto sa mga baga ngunit maaaring kumalat sa iba pang bahagi ng katawan (bato, gulugod, utak). Sa Pilipinas, ang TB ay isa sa mga pangunahing sanhi ng kamatayan mula sa nakakahawang sakit. Ang TB ay kumakalat sa hangin kapag ang mga taong may aktibong TB ay umuubo o bumabahing. Ang mga sintomas ay kinabibilangan ng patuloy na ubo, lagnat, night sweats, at pagbaba ng timbang. Ang paggamot ay tumatagal ng 6 buwan ng pag-inom ng maraming antibiotics araw-araw. Ang BCG vaccine ay ibinibigay sa mga sanggol sa Pilipinas upang maprotektahan laban sa matinding anyo ng TB.
+
+symptoms: Patuloy na ubo na tumatagal ng mahigit 2 linggo | Pag-ubo ng dugo o plema | Pananakit ng dibdib | Kahinaan at pagkapagod | Hindi sinasadyang pagbaba ng timbang | Pagkawala ng gana sa pagkain | Lagnat | Night sweats | Panginginig | (Kung ang TB ay kumalat sa labas ng mga baga: ang mga sintomas ay depende sa mga organong apektado)
+
+causes: Mycobacterium tuberculosis bacteria | Pagkalat sa hangin (pag-ubo, pagbahing, pagsasalita, pag-awit) | Malapit na contact sa mga pasyenteng may aktibong TB | Mahinang immune system (HIV, malnutrisyon, diabetes, sakit sa bato, cancer treatment) | Siksikan o hindi magandang bentilasyon sa mga lugar na tinutuluyan | Kahirapan at kakulangan ng access sa healthcare
+
+prevention: BCG vaccine (ibinibigay sa mga sanggol sa Pilipinas) | I-screen at gamutin ang latent TB infection | Siguraduhing mabuting bentilasyon sa mga lugar na tinutuluyan at pinagtatrabahuhan | Takpan ang bibig/ilong kapag umuubo o bumabahing | Iwasan ang malapit na contact sa mga taong may aktibong TB | Kumpletuhin ang buong kurso ng TB treatment upang maiwasan ang drug resistance | Pamahalaan ang mga kondisyon na nagpapahina ng immune system (HIV, diabetes)
+
+when_to_see_doctor: Makipagkita sa doktor kaagad kung mayroon kang ubo na tumatagal ng mahigit 2 linggo, lalo na kung kasama ang lagnat, night sweats, pagbaba ng timbang, o pag-ubo ng dugo. Magpa-screen kung nagkaroon ka ng malapit na contact sa may aktibong TB, o kung mayroon kang HIV, diabetes, o iba pang kondisyon na nagpapahina ng immune system. Kung nadiagnose ng TB, mahigpit na sundin ang treatment plan (6 buwan ng maraming antibiotics na iniinom araw-araw).
+
+affected_groups: Mga taong may malapit na contact sa TB patients, mga taong may HIV, mga taong may diabetes, mga taong malnutrition, mga taong nakatira sa siksikan na lugar, at mga healthcare workers.
+
+================================================================================
+DISEASE #13: DENGUE FEVER
+================================================================================
+
+disease_slug: dengue-fever
+language_code: tl
+name: Dengue
+slug: dengue-tl
+short_description: Isang sakit na dala ng lamok na sanhi ng Aedes aegypti mosquitoes, karaniwan sa tropikal at subtropical na mga rehiyon.
+description: Ang dengue ay sanhi ng isa sa apat na dengue viruses. Ang impeksyon sa isang uri ay karaniwang nagbibigay ng panghabambuhay na immunity sa uri na iyon, ngunit panandaliang immunity lamang sa iba pang mga uri. Ang mga susunod na impeksyon ay nagpapataas ng panganib ng matinding dengue.
+overview: Ang dengue fever ay #1 sakit na dala ng lamok sa Pilipinas, endemic buong taon na may peak sa tag-ulan (Hunyo-Nobyembre). Ito ay dinadala ng Aedes aegypti mosquitoes, na kumagat sa araw (madaling umaga at hapon). Mayroong apat na dengue virus serotypes (DENV-1, DENV-2, DENV-3, DENV-4). Karamihan sa mga impeksyon ay nagiging sanhi ng banayad na flu-like symptoms, ngunit ang iba ay bumubuo ng matinding dengue (dengue hemorrhagic fever o dengue shock syndrome), na maaaring nakabubuhay. Walang specific na treatment, kaya ang prevention ay nakatuon sa kontrol ng lamok. Ang DOH ay nag-promote ng 4S strategy: Search and destroy mosquito breeding sites, Self-protection, Seek early consultation, Support fogging sa hotspots.
+
+symptoms: Mataas na lagnat (40°C/104°F) | Matinding sakit ng ulo | Sakit sa likod ng mga mata | Sakit sa kasukasuan at kalamnan ("breakbone fever") | Pagduduwal at pagsusuka | Pamamaga ng mga glandula | Pantal (lumalabas 2-5 araw pagkatapos ng lagnat). MGA BABALA NG MATINDING DENGUE: Matinding sakit sa tiyan | Patuloy na pagsusuka | Pagdurugo (ilong, gilagid, suka, dumi) | Pagkapagod/pagkabalisa | Mabilis na paghinga | Malamig/malagkit na balat
+
+causes: Dengue virus (DENV-1, DENV-2, DENV-3, DENV-4) | Dinadala ng Aedes aegypti mosquitoes (mas bihira ang Aedes albopictus) | Ang mga lamok ay nangingitlog sa nakatigil na tubig (mga lalagyan, gulong, paso, rain gutters) | Peak transmission sa tag-ulan | Urbanisasyon at mahinang pagsasanay sa pag-iimbak ng tubig
+
+prevention: Alisin ang mga breeding sites ng lamok (alisin ang nakatigil na tubig mula sa mga lalagyan, gulong, gutters) | Gumamit ng mosquito repellent (naglalaman ng DEET, picaridin, o oil of lemon eucalyptus) | Magsuot ng mahabang manggas at pantalon | Gumamit ng mosquito nets at screens | Suportahan ang community fogging at larviciding | Dengvaxia vaccine (para lamang sa mga may nakaraang dengue infection, edad 9-45)
+
+when_to_see_doctor: Makipagkita sa doktor kung bumuo ka ng mataas na lagnat na may matinding sakit ng ulo, sakit sa mata, sakit sa kasukasuan/kalamnan, o pantal—lalo na sa panahon ng dengue season o pagkatapos ng paglalakbay sa mga lugar na may dengue. Humingi ng AGARANG emergency care para sa mga babala ng matinding dengue: matinding sakit sa tiyan, patuloy na pagsusuka, pagdurugo, hirap sa paghinga, malamig/malagkit na balat, pagkapagod/pagkabalisa. Ang pinaka-kritikal na panahon ay kapag bumaba ang lagnat (araw 3-7).
+
+affected_groups: Lahat ng edad ay maaaring magkaroon ng dengue, ngunit ang mga bata, matatanda, at mga taong may mahinang immune system ay mas nasa panganib ng matinding dengue. Ang mga taong nakaranas na ng dengue dati ay mas nasa panganib ng matinding dengue sa susunod na impeksyon.
+
+================================================================================
+DISEASE #14: ACUTE RESPIRATORY INFECTIONS (ARI)
+================================================================================
+
+disease_slug: acute-respiratory-infections
+language_code: tl
+name: Biglaan na Impeksyon sa Respiratory
+slug: impeksyon-sa-respiratory-tl
+short_description: Mga impeksyon ng respiratory tract mula sa karaniwang sipon hanggang pulmonya, sanhi ng virus o bacteria.
+description: Ang mga ARI ay nakakaapekto sa ilong, lalamunan, mga daanan ng hangin, at mga baga. Kinabibilangan nito ang upper respiratory infections (karaniwang sipon, sinusitis, pharyngitis) at lower respiratory infections (bronchitis, pulmonya).
+overview: Ang mga biglaan na impeksyon sa respiratory ay pangunahing sanhi ng outpatient consultations sa mga health centers sa Pilipinas. Karamihan sa mga ARI ay sanhi ng virus (rhinovirus, coronavirus, influenza, RSV, adenovirus) at self-limiting. Ang bacterial ARIs (Streptococcus, Haemophilus, Mycoplasma) ay maaaring mangailangan ng antibiotics. Ang mga ARI ay kumakalat sa pamamagitan ng respiratory droplets (pag-ubo, pagbahing) at mga kontaminadong ibabaw. Ang mga bata, matatanda, at mga may pangmatagalang kondisyon ay mas nasa panganib ng mga komplikasyon. Ang prevention ay nakatuon sa kalinisan, bakuna, mabuting nutrisyon, at pag-iwas sa siksikan na mga lugar kapag may sakit.
+
+symptoms: UPPER RESPIRATORY INFECTION - Tumutulong o baradong ilong | Masakit na lalamunan | Pagbahing | Ubo | Banayad na lagnat | Sakit ng ulo | Pagkapagod | LOWER RESPIRATORY INFECTION - Patuloy na ubo (na may plema) | Lagnat | Hirap sa paghinga | Pananakit ng dibdib | Wheezing | Mabilis na paghinga (lalo na sa mga bata)
+
+causes: Virus (rhinovirus, coronavirus, influenza, RSV, adenovirus, parainfluenza) | Bacteria (Streptococcus pneumoniae, Haemophilus influenzae, Mycoplasma) | Kumakalat sa pamamagitan ng respiratory droplets at kontaminadong ibabaw | Risk factors: batang edad, matanda, malnutrisyon, siksikan, polusyon sa hangin, paninigarilyo, kakulangan ng breastfeeding (mga sanggol)
+
+prevention: Madalas na paghuhugas ng kamay gamit ang sabon at tubig | Takpan ang ilong at bibig kapag umuubo o bumabahing | Iwasan ang paghawak sa mukha (mata, ilong, bibig) | Iwasan ang malapit na contact sa mga taong may sakit | Manatili sa bahay kapag may sakit | Magpabakuna (influenza, pneumococcal) | Siguraduhing mabuting nutrisyon at sapat na tulog | Iwasan ang paninigarilyo at secondhand smoke | Siguraduhing mabuting bentilasyon
+
+when_to_see_doctor: Makipagkita sa doktor kung ang mga sintomas ay lumala o hindi bumuti pagkatapos ng ilang araw, o kung bumuo ka ng: mataas na lagnat (>38.5°C/101.3°F para sa mga adulto; >38°C/100.4°F para sa mga bata), hirap sa paghinga, pananakit ng dibdib, patuloy na pagsusuka, matinding sakit ng ulo, mga sintomas sa high-risk groups (mga sanggol, matatanda, buntis, immunocompromised, pangmatagalang kondisyon). Humingi ng emergency care para sa: matinding hirap sa paghinga, asul na mga labi o mukha, pagkalito, hindi makakain ng likido.
+
+affected_groups: Mga sanggol at maliliit na bata, mga matatandang 65 taong gulang pataas, mga buntis, mga taong may mahinang immune system, mga taong may pangmatagalang sakit tulad ng asthma o sakit sa puso, at mga taong nakatira sa siksikan na lugar.
+
+================================================================================
+DISEASE #15: DIARRHEAL DISEASES
+================================================================================
+
+disease_slug: diarrheal-diseases
+language_code: tl
+name: Mga Sakit na Pagtatae
+slug: pagtatae-tl
+short_description: Impeksyon ng digestive tract na nagiging sanhi ng maluwag, tubig na dumi, madalas dahil sa virus, bacteria, o parasites.
+description: Ang mga sakit na pagtatae ay karaniwang sanhi ng impeksyon sa bituka na dinadala sa pamamagitan ng kontaminadong pagkain o tubig, o mula sa tao hanggang sa tao. Ang pangunahing panganib ay dehydration, lalo na sa mga maliliit na bata.
+overview: Ang mga sakit na pagtatae ay nasa top 5 na sanhi ng morbidity sa Pilipinas, lalo na sa mga batang wala pang 5 taon. Ang mga ito ay sanhi ng virus (rotavirus, norovirus), bacteria (E. coli, Salmonella, Shigella, Campylobacter), o parasites (Giardia, Entamoeba). Ang transmission ay nangyayari sa pamamagitan ng kontaminadong pagkain/tubig (fecal-oral route) o person-to-person contact. Ang pangunahing panganib ay dehydration, na maaaring nakamamatay sa mga maliliit na bata at matatanda kung hindi gagamutin. Ang prevention ay nakatuon sa ligtas na tubig, tamang sanitasyon, paghuhugas ng kamay, at kaligtasan ng pagkain. Ang oral rehydration solution (ORS) ay isang simple, nagliligtas ng buhay na treatment. Ang Pilipinas ay may malakas na rotavirus vaccination program para sa mga sanggol.
+
+symptoms: Madalas na maluwag o tubig na dumi | Mga cramps at sakit sa tiyan | Pagduduwal at pagsusuka | Lagnat | Pagmamadali na magdumi | Pamamaga. MGA PALATANDAAN NG DEHYDRATION: Uhaw, Tuyong bibig at dila, Nabawasang pag-ihi, Lumulubog na mga mata, Pagkaantok, Pagkairita (mga bata), Tuyong balat (pagkawala ng elasticity)
+
+causes: Virus (rotavirus, norovirus, adenovirus) | Bacteria (E. coli, Salmonella, Shigella, Campylobacter, Vibrio cholerae) | Parasites (Giardia, Cryptosporidium, Entamoeba) | Kontaminadong pagkain o tubig | Mahinang sanitasyon at kalinisan | Malnutrisyon | Kakulangan ng breastfeeding (mga sanggol) | Siksikan na mga lugar na tinutuluyan
+
+prevention: Uminom ng ligtas na tubig (pinakuluan o tinrato) | Magsanay ng mabuting kalinisan (maghugas ng kamay gamit ang sabon pagkatapos ng paggamit ng banyo, bago kumain/maghanda ng pagkain) | Maghanda at mag-imbak ng pagkain nang ligtas (lutuin nang maayos, i-refrigerate kaagad) | Magpasuso ng mga sanggol nang eksklusibo sa loob ng 6 na buwan | Siguraduhing tamang sanitasyon (gumamit ng mga banyo, tamang pagtatapon ng basura) | Rotavirus vaccine (mga sanggol) | Pagbutihin ang nutrisyon (lalo na vitamin A at zinc)
+
+when_to_see_doctor: Makipagkita sa doktor kung ang pagtatae ay tumatagal ng mahigit 2 araw sa mga adulto o 24 oras sa mga bata, o kung mapapansin mo ang: mga palatandaan ng matinding dehydration, dugo o nana sa dumi, itim/tar-like na dumi, matinding sakit sa tiyan, mataas na lagnat (>38.5°C/101.3°F), pagtatae sa mga sanggol/matatanda/buntis/immunocompromised. EMERGENCY: matinding dehydration, hindi makakain, nabawasang kamalayan, walang ihi sa loob ng 8+ oras, lumulubog na mga mata, napakatu yong bibig.
+
+affected_groups: Mga sanggol at maliliit na bata, mga matatandang 65 taong gulang pataas, mga taong may mahinang immune system, mga taong walang access sa ligtas na tubig at sanitasyon, at mga taong naglalakbay sa mga lugar na may mataas na panganib.
+
+================

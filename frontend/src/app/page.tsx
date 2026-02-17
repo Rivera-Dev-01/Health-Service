@@ -16,6 +16,8 @@ import {
 import { MOCK_DISEASES, CATEGORIES } from "@/lib/mock-data";
 import { motion } from "framer-motion";
 import { useLanguage } from "@/lib/language-context";
+import { useRouter } from "next/navigation";
+import { useState } from "react";
 
 const getIcon = (iconName: string) => {
   switch (iconName) {
@@ -30,6 +32,15 @@ const getIcon = (iconName: string) => {
 export default function Home() {
   const featuredDiseases = MOCK_DISEASES.slice(0, 4);
   const { t } = useLanguage();
+  const router = useRouter();
+  const [searchQuery, setSearchQuery] = useState("");
+
+  const handleSearch = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (searchQuery.trim()) {
+      router.push(`/diseases?search=${encodeURIComponent(searchQuery)}`);
+    }
+  };
 
   return (
     <div className="flex flex-col min-h-screen">
@@ -145,18 +156,20 @@ export default function Home() {
               <div className="relative p-8 rounded-3xl border-2 border-primary/10 bg-card shadow-2xl">
                 <div className="absolute -top-3 -right-3 w-24 h-24 bg-primary/10 rounded-full blur-2xl" />
                 <h3 className="text-xl font-bold mb-4">{t("home.search.title")}</h3>
-                <div className="relative mb-4">
+                <form onSubmit={handleSearch} className="relative mb-4">
                   <Search className="absolute left-4 top-4 h-5 w-5 text-muted-foreground" />
                   <Input
                     type="search"
                     placeholder={t("home.search.placeholder")}
                     className="w-full pl-12 h-14 text-base border-2 focus-visible:ring-2 focus-visible:ring-primary"
+                    value={searchQuery}
+                    onChange={(e) => setSearchQuery(e.target.value)}
                   />
-                </div>
+                </form>
                 <div className="space-y-2">
                   <p className="text-xs text-muted-foreground font-medium mb-2">{t("home.search.popular")}</p>
                   <div className="flex flex-wrap gap-2">
-                    <Link href="/diseases/type-2-diabetes">
+                    <Link href="/diseases/diabetes-mellitus">
                       <Badge variant="secondary" className="cursor-pointer hover:bg-primary hover:text-primary-foreground transition-colors">
                         Diabetes
                       </Badge>
@@ -219,7 +232,7 @@ export default function Home() {
             </Button>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {featuredDiseases.map((disease, index) => (
               <motion.div
                 key={disease.slug}
@@ -228,34 +241,38 @@ export default function Home() {
                 viewport={{ once: true }}
                 transition={{ duration: 0.4, delay: index * 0.1 }}
               >
-                <Card className="group hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 border-2 border-transparent hover:border-primary/20 bg-card h-full relative overflow-hidden">
-                  <div className="absolute top-0 right-0 w-32 h-32 bg-primary/5 rounded-full -translate-y-16 translate-x-16 group-hover:scale-150 transition-transform duration-500" />
-                  <CardHeader className="relative">
-                    <motion.div
-                      className="mb-3 p-3 w-fit rounded-xl bg-primary/10 border border-primary/20"
-                      whileHover={{ scale: 1.1, rotate: 5 }}
-                      transition={{ type: "spring", stiffness: 300 }}
-                    >
-                      {getIcon(disease.icon)}
-                    </motion.div>
-                    <CardTitle className="text-xl font-bold group-hover:text-primary transition-colors">
-                      {disease.name}
-                    </CardTitle>
-                  </CardHeader>
-                  <CardContent className="relative">
-                    <CardDescription className="line-clamp-3 text-base">
-                      {disease.shortDescription}
-                    </CardDescription>
-                  </CardContent>
-                  <CardFooter className="relative">
-                    <Button variant="ghost" className="w-full justify-between group-hover:bg-primary group-hover:text-primary-foreground transition-all" asChild>
-                      <Link href={`/diseases/${disease.slug}`}>
-                        {t("diseases.learn")}
+                <Link href={`/diseases/${disease.slug}`} className="block h-full">
+                  <Card className="group hover:shadow-lg hover:-translate-y-1 transition-all duration-300 bg-card h-full flex flex-col relative overflow-hidden">
+                    {/* Animated background blob */}
+                    <div className="absolute top-0 right-0 w-32 h-32 bg-primary/5 rounded-full -translate-y-16 translate-x-16 group-hover:scale-150 transition-transform duration-500" />
+                    
+                    <CardHeader className="pb-4 relative">
+                      <div className="flex items-start justify-between mb-3">
+                        <motion.div 
+                          className="p-3 rounded-xl bg-primary/10 border border-primary/20"
+                          whileHover={{ scale: 1.1, rotate: 5 }}
+                          transition={{ type: "spring", stiffness: 300 }}
+                        >
+                          {getIcon(disease.icon)}
+                        </motion.div>
+                      </div>
+                      <CardTitle className="text-lg font-bold leading-tight group-hover:text-primary transition-colors">
+                        {disease.name}
+                      </CardTitle>
+                    </CardHeader>
+                    <CardContent className="flex-1 pb-4 relative">
+                      <CardDescription className="line-clamp-3 text-sm leading-relaxed">
+                        {disease.shortDescription}
+                      </CardDescription>
+                    </CardContent>
+                    <CardFooter className="pt-0 relative">
+                      <div className="flex items-center text-sm font-medium text-primary group-hover:gap-2 transition-all">
+                        <span>{t("diseases.learn")}</span>
                         <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
-                      </Link>
-                    </Button>
-                  </CardFooter>
-                </Card>
+                      </div>
+                    </CardFooter>
+                  </Card>
+                </Link>
               </motion.div>
             ))}
           </div>

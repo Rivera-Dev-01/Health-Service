@@ -1,0 +1,230 @@
+================================================================================
+TAGALOG TRANSLATIONS - 20 PRIORITY DISEASES (PHILIPPINES)
+================================================================================
+Last Updated: February 2025
+Language: Tagalog (tl)
+================================================================================
+
+================================================================================
+DISEASE #1: ISCHEMIC HEART DISEASE
+================================================================================
+
+disease_slug: ischemic-heart-disease
+language_code: tl
+name: Sakit sa Puso dahil sa Kakulangan ng Daloy ng Dugo
+slug: sakit-sa-puso-tl
+short_description: Isang kondisyon kung saan ang daloy ng dugo sa kalamnan ng puso ay nabawasan dahil sa makitid o nabarang mga ugat ng puso.
+description: Ang sakit sa puso dahil sa kakulangan ng daloy ng dugo, na kilala rin bilang coronary artery disease, ay nangyayari kapag ang mga ugat ng puso ay naging makitid o nabarang dahil sa plaque buildup. Ito ay nagpapababa ng daloy ng dugo sa kalamnan ng puso, na nagreresulta sa pananakit ng dibdib o heart attack.
+overview: Ang sakit sa puso dahil sa kakulangan ng daloy ng dugo ay pangunahing sanhi ng kamatayan sa buong mundo at sa Pilipinas. Ito ay nabubuo kapag ang mga deposito na naglalaman ng kolesterol ay nag-ipon sa mga ugat ng puso, na humahadlang sa daloy ng dugo. Sa paglipas ng panahon, maaari nitong masira o masira ang kalamnan ng puso. Ang mga risk factors ay kinabibilangan ng mataas na kolesterol, mataas na presyon ng dugo, paninigarilyo, diabetes, labis na timbang, at kasaysayan ng sakit sa puso sa pamilya. Maraming tao ang hindi nakakaalam na mayroon sila ng sakit hanggang sa makaramdam sila ng pananakit ng dibdib o magkaroon ng heart attack.
+
+symptoms: Pananakit o hindi komportable sa dibdib (angina) | Hirap sa paghinga | Sakit sa leeg, panga, lalamunan, itaas na tiyan, o likod | Pagduduwal | Pagkapagod | Pagpapawis | Pagkahilo | Heart attack (matinding sakit sa dibdib, malamig na pawis, pagduduwal)
+
+causes: Atherosclerosis (plaque buildup sa mga ugat) | Mataas na antas ng kolesterol | Mataas na presyon ng dugo | Paninigarilyo | Diabetes | Labis na timbang o obesity | Walang ehersisyo o sedentary lifestyle | Kasaysayan ng sakit sa puso sa pamilya | Edad (tumataas ang panganib habang tumatanda) | Pangmatagalang stress
+
+prevention: Kumain ng pagkaing mabuti para sa puso (mababa sa saturated fat at asin, maraming prutas at gulay) | Mag-ehersisyo nang regular (kahit 30 minuto karamihan ng mga araw) | Tumigil sa paninigarilyo at iwasan ang secondhand smoke | Panatilihin ang malusog na timbang | Kontrolin ang presyon ng dugo at kolesterol | Pamahalaan ang diabetes | Bawasan ang stress | Limitahan ang pag-inom ng alak
+
+when_to_see_doctor: Humingi ng emergency care kung mayroon kang pananakit ng dibdib, lalo na kung kasama ang hirap sa paghinga, pagpapawis, pagduduwal, o sakit na kumakalat sa braso, panga, o likod. Magpa-checkup nang regular kung mayroon kang mga risk factors tulad ng mataas na presyon ng dugo, mataas na kolesterol, diabetes, o kasaysayan ng sakit sa puso sa pamilya.
+
+affected_groups: Mga taong may mataas na kolesterol, mataas na presyon ng dugo, diabetes, mga naninigarilyo, mga taong sobra ang timbang, mga taong walang regular na ehersisyo, at mga taong may kasaysayan ng sakit sa puso sa pamilya.
+
+================================================================================
+DISEASE #2: CEREBROVASCULAR DISEASE (STROKE)
+================================================================================
+
+disease_slug: stroke
+language_code: tl
+name: Stroke
+slug: stroke-tl
+short_description: Isang medikal na emergency kung saan ang suplay ng dugo sa bahagi ng utak ay natigil o nabawasan, na pumipigil sa tissue ng utak na makakuha ng oxygen.
+description: Ang stroke ay nangyayari kapag ang suplay ng dugo sa bahagi ng utak ay naharang (ischemic stroke) o kapag ang ugat sa utak ay pumutok (hemorrhagic stroke). Kung walang oxygen, ang mga selula ng utak ay nagsisimulang mamatay sa loob ng ilang minuto.
+overview: Ang stroke ay ikalawang pangunahing sanhi ng kamatayan sa Pilipinas at pangunahing sanhi ng pangmatagalang kapansanan. Mayroong dalawang pangunahing uri: ischemic stroke (sanhi ng nabarang ugat) at hemorrhagic stroke (sanhi ng pagdurugo sa utak). Ang mabilis na paggamot ay kritikal—ang acronym na FAST ay tumutulong na makilala ang mga sintomas ng stroke: Face drooping (paglupot ng mukha), Arm weakness (panghihina ng braso), Speech difficulty (hirap sa pagsasalita), Time to call emergency services (oras na tumawag ng emergency). Ang mga risk factors ay kinabibilangan ng mataas na presyon ng dugo, paninigarilyo, diabetes, mataas na kolesterol, labis na timbang, at atrial fibrillation.
+
+symptoms: Biglaang pamamanhid o panghihina (mukha, braso, binti, lalo na sa isang bahagi) | Biglaang pagkalito o hirap sa pagsasalita | Biglaang problema sa paningin sa isa o dalawang mata | Biglaang problema sa paglakad o pagkawala ng balanse | Biglaang matinding sakit ng ulo na walang kilalang dahilan | Pagkahilo | Pagkawala ng malay
+
+causes: Ischemic stroke (blood clot na humaharang sa ugat papunta sa utak) | Hemorrhagic stroke (pumutok na ugat sa utak) | Mataas na presyon ng dugo (pangunahing sanhi) | Paninigarilyo | Diabetes | Mataas na kolesterol | Atrial fibrillation | Labis na timbang | Labis na pag-inom ng alak | Pag-abuso sa droga (cocaine, amphetamines)
+
+prevention: Kontrolin ang mataas na presyon ng dugo | Kumain ng malusog na pagkain (mababa sa asin at saturated fat) | Mag-ehersisyo nang regular | Panatilihin ang malusog na timbang | Huwag manigarilyo | Limitahan ang pag-inom ng alak | Pamahalaan ang diabetes | Gamutin ang atrial fibrillation | Kontrolin ang antas ng kolesterol
+
+when_to_see_doctor: Tumawag ng emergency services KAAGAD kung ikaw o may iba ay nagpapakita ng anumang sintomas ng stroke. Tandaan ang FAST: Face drooping (paglupot ng mukha), Arm weakness (panghihina ng braso), Speech difficulty (hirap sa pagsasalita), Time to call emergency (oras na tumawag). Kahit na ang mga sintomas ay mabilis na nawala (transient ischemic attack o TIA), humingi ng agarang medikal na atensyon dahil maaaring ito ay babala ng hinaharap na stroke.
+
+affected_groups: Mga taong may mataas na presyon ng dugo, mga naninigarilyo, mga may diabetes, mga taong sobra ang timbang, mga taong may atrial fibrillation, mga matatanda, at mga taong may kasaysayan ng stroke sa pamilya.
+
+================================================================================
+DISEASE #3: CANCER (NEOPLASMS)
+================================================================================
+
+disease_slug: cancer
+language_code: tl
+name: Kanser
+slug: kanser-tl
+short_description: Isang grupo ng mga sakit na kinabibilangan ng abnormal na paglaki ng selula na may kakayahang lumaganap sa iba pang bahagi ng katawan.
+description: Ang kanser ay nangyayari kapag ang mga pagbabago sa genes ay nagiging sanhi ng hindi kontroladong paghahati ng mga selula at pagkalat sa mga nakapaligid na tissue. Mayroong mahigit 100 uri ng kanser, kabilang ang kanser sa suso, baga, atay, bituka, at cervix.
+overview: Ang kanser ay ikatlong pangunahing sanhi ng kamatayan sa Pilipinas. Sa Pilipinas, ang pinakakaraniwang kanser ay sa baga, suso, atay, bituka, at cervix. Ang kanser ay nabubuo kapag ang normal na mga selula ay sumasailalim sa genetic mutations na nagiging sanhi ng abnormal na paglaki at pagdami. Ang mga abnormal na selulang ito ay maaaring bumuo ng mga tumor at kumalat (metastasize) sa iba pang bahagi ng katawan. Ang mga risk factors ay nag-iiba depende sa uri ng kanser ngunit kinabibilangan ng paggamit ng tabako, hindi malusog na pagkain, kakulangan sa pisikal na aktibidad, mga impeksyon (HPV, Hepatitis B), at kasaysayan sa pamilya. Ang maagang pagtuklas sa pamamagitan ng screening ay lubhang nagpapabuti ng mga resulta ng paggamot.
+
+symptoms: Hindi maipaliwanag na pagbaba ng timbang | Patuloy na pagkapagod | Lagnat | Sakit | Mga pagbabago sa balat | Patuloy na ubo o pagkapaos | Mga pagbabago sa kilos ng bituka o pantog | Hindi pangkaraniwang pagdurugo o discharge | Pag-pal o bukol (suso, testicle, lymph nodes, atbp.) | Hirap sa paglunok | Patuloy na hindi pagkaginhawa sa tiyan
+
+causes: Paggamit ng tabako (kanser sa baga, lalamunan, bibig) | Mga impeksyon (HPV para sa cervical cancer, Hepatitis B/C para sa liver cancer, H. pylori para sa stomach cancer) | Hindi malusog na pagkain (mababa sa prutas at gulay, mataas sa processed meat) | Kakulangan sa pisikal na aktibidad | Labis na timbang | Pag-inom ng alak | Pagkakalantad sa radiation | Mga pollutant sa kapaligiran | Genetic mutations | Kasaysayan sa pamilya
+
+prevention: Huwag gumamit ng tabako | Panatilihin ang malusog na timbang | Maging aktibo sa pisikal | Kumain ng malusog na pagkain (prutas, gulay, whole grains) | Limitahan ang alak | Protektahan ang balat mula sa araw | Magpabakuna (HPV vaccine para sa cervical cancer, Hepatitis B vaccine para sa liver cancer) | Regular na cancer screening (mammogram, Pap smear, colonoscopy) | Iwasan ang mapanganib na pag-uugali (safe sex, huwag magbahagi ng karayom)
+
+when_to_see_doctor: Makipagkita sa doktor kung mapapansin mo ang anumang patuloy na sintomas tulad ng hindi maipaliwanag na pagbaba ng timbang, mga bukol, mga pagbabago sa mga nunal, patuloy na ubo, hindi pangkaraniwang pagdurugo, o anumang sintomas na nag-aalala sa iyo at hindi nawawala. Sundin ang mga alituntunin sa screening para sa iyong edad at mga risk factors (mammograms, Pap smears, colonoscopy). Ang maagang pagtuklas ay nagliligtas ng buhay.
+
+affected_groups: Mga naninigarilyo, mga taong umiinom ng labis na alak, mga taong sobra ang timbang, mga taong may mga impeksyon tulad ng HPV o Hepatitis B, mga taong may kasaysayan ng kanser sa pamilya, at mga taong nakalantad sa mga kemikal o radiation.
+
+================
+
+================================================================================
+DISEASE #4: DIABETES MELLITUS
+================================================================================
+
+disease_slug: diabetes-mellitus
+language_code: tl
+name: Diabetes Mellitus
+slug: diabetes-mellitus-tl
+short_description: Isang pangmatagalang kondisyon na nakakaapekto sa paraan ng pagproseso ng katawan sa asukal sa dugo (glucose).
+description: Sa type 2 diabetes, ang katawan ay hindi gumagawa ng sapat na insulin, o lumalaban ito sa insulin. Ang type 1 diabetes ay isang autoimmune condition kung saan ang katawan ay hindi gumagawa ng insulin.
+overview: Ang Diabetes Mellitus ay isang pangmatagalang kondisyon na nakakaapekto sa paraan ng pagproseso ng katawan sa asukal sa dugo (glucose). Sa type 2 diabetes, ang katawan ay hindi gumagawa ng sapat na insulin, o lumalaban ito sa insulin. Ang mga sintomas ay madalas na unti-unting nabubuo. Sa katunayan, maaari kang magkaroon ng type 2 diabetes sa loob ng maraming taon at hindi mo alam. Sa Pilipinas, 6.3% ng mga adulto ay may diabetes (2021 DOH data), at marami ang hindi nadiagnose. Ang pangmatagalang komplikasyon ay kinabibilangan ng sakit sa puso, stroke, sakit sa bato, pagkawala ng paningin, at pinsala sa nerbiyos.
+
+symptoms: Labis na uhaw | Madalas na pag-ihi | Labis na gutom | Hindi sinasadyang pagbaba ng timbang | Pagkapagod | Malabong paningin | Mabagal na paggaling ng mga sugat | Madalas na impeksyon | Pamamanhid o pag-kirot sa mga kamay o paa | Madilim na balat (leeg, kilikili)
+
+causes: Insulin resistance | Genetic factors | Sobrang timbang o labis na timbang | Kakulangan sa aktibidad | Edad (tumataas ang panganib habang tumatanda) | Kasaysayan ng diabetes sa pamilya | Gestational diabetes (sa panahon ng pagbubuntis) | Polycystic ovary syndrome (PCOS) | Mataas na presyon ng dugo | Abnormal na antas ng kolesterol
+
+prevention: Pumili ng malusog na pagkain (mas mababa sa taba at calories, mas mataas sa fiber) | Maging aktibo sa pisikal (kahit 30 minuto bawat araw) | Mawalan ng labis na timbang | Iwasan ang mahabang panahon ng kawalan ng aktibidad | Huwag manigarilyo | Kontrolin ang presyon ng dugo at kolesterol | Magpa-regular na health screening
+
+when_to_see_doctor: Makipagkita sa doktor kung mapapansin mo ang anumang posibleng sintomas ng diabetes. Ang maagang diagnosis ay pumipigil sa mga komplikasyon. Kung nadiagnose na, sundin ang iyong treatment plan at makipagkita sa iyong doktor nang regular upang subaybayan ang asukal sa dugo, presyon ng dugo, kolesterol, function ng bato, at kalusugan ng mata.
+
+affected_groups: Mga taong may kasaysayan ng diabetes sa pamilya, mga taong sobra ang timbang, mga taong 45 taong gulang pataas, mga taong may sedentary lifestyle, at mga kababaihan na nagkaroon ng gestational diabetes.
+
+================================================================================
+DISEASE #5: HYPERTENSION (HIGH BLOOD PRESSURE)
+================================================================================
+
+disease_slug: hypertension
+language_code: tl
+name: Mataas na Presyon ng Dugo
+slug: mataas-na-presyon-tl
+short_description: Isang pangmatagalang kondisyon kung saan ang puwersa ng dugo laban sa mga dingding ng ugat ay patuloy na masyadong mataas (≥140/90 mmHg).
+description: Ang mataas na presyon ng dugo, o hypertension, ay nangyayari kapag ang puwersa ng dugo na tumutu tulak sa mga dingding ng iyong mga ugat ay patuloy na masyadong mataas. Sa paglipas ng panahon, ito ay sumisira sa iyong mga ugat at mga organo.
+overview: Ang hypertension ay madalas na tinatawag na "silent killer" dahil karaniwang walang sintomas hanggang sa nakagawa na ito ng malaking pinsala. Sa Pilipinas, 28% ng mga adulto ay may hypertension (2021 DOH National Nutrition Survey), at marami ang hindi nakakaalam nito. Kung hindi gagamutin, ang mataas na presyon ng dugo ay nagpapataas ng panganib ng heart attack, stroke, sakit sa bato, at iba pang seryosong problema sa kalusugan. Ang presyon ng dugo ay sinusukat sa millimeters of mercury (mmHg) na may dalawang numero: systolic (presyon kapag tumitibok ang puso) over diastolic (presyon kapag nagpapahinga ang puso). Ang normal ay mas mababa sa 120/80 mmHg; ang hypertension ay 140/90 mmHg o mas mataas.
+
+symptoms: Karaniwang WALANG sintomas (silent killer) | Matinding sakit ng ulo (hypertensive crisis) | Hirap sa paghinga | Pag-ihip ng ilong (bihira) | Pamumula | Pagkahilo | Pananakit ng dibdib (emergency) | Mga pagbabago sa paningin (emergency)
+
+causes: Mataas na pagkain ng asin | Labis na timbang | Kakulangan sa pisikal na aktibidad | Paggamit ng tabako | Labis na pag-inom ng alak | Pangmatagalang stress | Kasaysayan sa pamilya | Edad (tumataas ang panganib habang tumatanda) | Pangmatagalang sakit sa bato | Sleep apnea | Ilang gamot (birth control pills, decongestants)
+
+prevention: Kumain ng malusog na pagkain (DASH diet: prutas, gulay, whole grains, low-fat dairy) | Bawasan ang sodium intake (mas mababa sa 5g asin bawat araw) | Panatilihin ang malusog na timbang | Maging aktibo sa pisikal (kahit 150 minuto moderate exercise bawat linggo) | Limitahan ang alak | Huwag manigarilyo | Pamahalaan ang stress | Magpa-regular na blood pressure check
+
+when_to_see_doctor: Magpasuri ng iyong presyon ng dugo nang regular (kahit bawat 2 taon kung normal, mas madalas kung mataas o kung mayroon kang mga risk factors). Humingi ng agarang medikal na atensyon kung mayroon kang napakataas na presyon ng dugo (180/120 o mas mataas) na may mga sintomas tulad ng matinding sakit ng ulo, pananakit ng dibdib, hirap sa paghinga, o mga pagbabago sa paningin. Kung nadiagnose ng hypertension, sundin ang iyong treatment plan at subaybayan ang presyon ng dugo sa bahay.
+
+affected_groups: Mga taong kumakain ng maraming asin, mga taong sobra ang timbang, mga taong walang regular na ehersisyo, mga naninigarilyo, mga umiinom ng labis na alak, mga taong may mataas na stress, at mga taong may kasaysayan ng hypertension sa pamilya.
+
+================================================================================
+DISEASE #6: CHRONIC OBSTRUCTIVE PULMONARY DISEASE (COPD)
+================================================================================
+
+disease_slug: copd
+language_code: tl
+name: Pangmatagalang Sakit sa Baga (COPD)
+slug: copd-tl
+short_description: Isang progresibong sakit sa baga na nagiging sanhi ng hirap sa paghinga dahil sa pagharang ng daloy ng hangin at pinsala sa baga.
+description: Ang COPD ay isang grupo ng mga sakit sa baga, kabilang ang emphysema at chronic bronchitis, na nagiging sanhi ng mga problema sa paghinga. Ang pangunahing sanhi ay pangmatagalang pagkakalantad sa nakakairitang gas o particulate matter, kadalasan mula sa usok ng sigarilyo.
+overview: Ang COPD ay isang pangmatagalang inflammatory lung disease na humaharang sa daloy ng hangin mula sa mga baga, na ginagawang progresibong mas mahirap huminga. Ang dalawang pangunahing anyo ay emphysema (pinsala sa air sacs) at chronic bronchitis (pamamaga at mucus sa airways). Ang paninigarilyo ay pangunahing sanhi, ngunit ang pangmatagalang pagkakalantad sa polusyon sa hangin, occupational dust, at mga kemikal ay nag-aambag din. Ang COPD ay pangunahing sanhi ng kapansanan at ikatlong pangunahing sanhi ng kamatayan sa buong mundo. Bagaman walang lunas, ang paggamot ay maaaring magpabagal ng progression, magpaginhawa ng mga sintomas, at mapabuti ang kalidad ng buhay.
+
+symptoms: Hirap sa paghinga (lalo na sa panahon ng pisikal na aktibidad) | Wheezing | Paninikip ng dibdib | Pangmatagalang ubo na may mucus (malinaw, puti, dilaw, o berdeng kulay) | Madalas na respiratory infections | Pagkapagod | Hindi sinasadyang pagbaba ng timbang (sa mga huling yugto) | Pamamaga sa mga bukung-bukong, paa, o binti
+
+causes: Paninigarilyo (pangunahing sanhi) | Pangmatagalang pagkakalantad sa secondhand smoke | Polusyon sa hangin | Occupational exposure sa alikabok, usok, o mga kemikal | Indoor air pollution (pagluluto gamit ang biomass fuels) | Alpha-1 antitrypsin deficiency (genetic) | Respiratory infections sa pagkabata
+
+prevention: Huwag manigarilyo at iwasan ang secondhand smoke | Iwasan ang mga lung irritants (polusyon sa hangin, chemical fumes, alikabok) | Magsuot ng protective equipment kung nakalantad sa occupational hazards | Pigilan ang respiratory infections (magpabakuna ng flu at pneumococcal, maghugas ng kamay) | Panatilihin ang mabuting kalidad ng hangin sa loob ng bahay
+
+when_to_see_doctor: Makipagkita sa doktor kung mayroon kang pangmatagalang ubo, hirap sa paghinga, wheezing, o madalas na respiratory infections. Kung ikaw ay naninigarilyo o dating naninigarilyo na mahigit 40 taong gulang, magpa-screen para sa COPD. Humingi ng agarang pag-aalaga kung mayroon kang matinding hirap sa paghinga, asul na mga labi o kuko, mabilis na tibok ng puso, pagkalito, o hirap sa pagsasalita.
+
+affected_groups: Mga naninigarilyo o dating naninigarilyo, mga taong nakalantad sa occupational dust o chemicals, mga taong nakatira sa mga lugar na may mataas na polusyon sa hangin, at mga taong may genetic predisposition.
+
+================================================================================
+DISEASE #7: CHRONIC KIDNEY DISEASE
+================================================================================
+
+disease_slug: chronic-kidney-disease
+language_code: tl
+name: Pangmatagalang Sakit sa Bato
+slug: sakit-sa-bato-tl
+short_description: Isang unti-unting pagkawala ng function ng bato sa paglipas ng panahon, na madalas na humahantong sa end-stage renal disease na nangangailangan ng dialysis o transplant.
+description: Ang pangmatagalang sakit sa bato (CKD) ay nangyayari kapag ang iyong mga bato ay nasira at hindi makapag-filter ng dugo nang maayos. Ito ay nagiging sanhi ng pag-ipon ng basura at likido sa iyong katawan.
+overview: Ang pangmatagalang sakit sa bato ay ang unti-unting pagkawala ng function ng bato sa loob ng mga buwan o taon. Ang mga bato ay nag-filter ng basura at labis na likido mula sa dugo, nag-regulate ng presyon ng dugo, at gumagawa ng mga hormone. Kapag nasira, ang basura ay nag-ipon sa katawan, na humahantong sa seryosong mga problema sa kalusugan. Ang mga pangunahing sanhi ay diabetes at mataas na presyon ng dugo. Sa Pilipinas, ang CKD ay pangunahing sanhi ng pagpapahospital, at ang mga dialysis centers ay matatagpuan sa bawat pangunahing lungsod. Ang mga maagang yugto ay may kaunting sintomas, kaya mahalaga ang regular na screening para sa mga nasa panganib. Ang advanced CKD ay maaaring mangailangan ng dialysis o kidney transplant.
+
+symptoms: Madalas na WALANG sintomas sa maagang yugto | Pagkapagod at kahinaan | Pamamaga sa mga paa, bukung-bukong, kamay, mukha | Hirap sa paghinga | Pagduduwal at pagsusuka | Pagkawala ng gana sa pagkain | Mga problema sa pagtulog | Pagbaba ng mental sharpness | Mga muscle cramps | Patuloy na pangangati | Pananakit ng dibdib | Mataas na presyon ng dugo | Mga pagbabago sa pag-ihi (mas madalas/mas bihira, may bula, dugo sa ihi)
+
+causes: Diabetes (pangunahing sanhi) | Mataas na presyon ng dugo (ikalawang pangunahing sanhi) | Glomerulonephritis (pamamaga ng kidney filters) | Polycystic kidney disease (genetic) | Pangmatagalang pagharang (enlarged prostate, kidney stones) | Paulit-ulit na kidney infections | Pangmatagalang paggamit ng NSAIDs (painkillers) | Lupus at iba pang autoimmune diseases
+
+prevention: Pamahalaan ang diabetes (panatilihin ang asukal sa dugo sa target range) | Kontrolin ang presyon ng dugo | Panatilihin ang malusog na timbang | Kumain ng heart-healthy diet (mababa sa asin at taba) | Mag-ehersisyo nang regular | Huwag manigarilyo | Limitahan ang alak | Iwasan ang labis na paggamit ng NSAIDs at iba pang gamot na maaaring makapinsala sa mga bato | Magpa-regular na kidney function tests kung nasa panganib
+
+when_to_see_doctor: Makipagkita sa doktor kung mayroon kang mga risk factors (diabetes, mataas na presyon ng dugo, kasaysayan ng sakit sa bato sa pamilya) para sa regular na screening. Humingi ng pag-aalaga kung mapapansin mo ang mga palatandaan ng sakit sa bato tulad ng pamamaga, mga pagbabago sa pag-ihi, patuloy na pagkapagod, o hirap sa paghinga. Kung mayroon kang advanced kidney disease, makipagtulungan nang malapit sa isang nephrologist (kidney specialist).
+
+affected_groups: Mga taong may diabetes, mataas na presyon ng dugo, kasaysayan ng sakit sa bato sa pamilya, mga matatanda, mga taong gumagamit ng maraming gamot, at mga taong may autoimmune diseases tulad ng lupus.
+
+================================================================================
+DISEASE #8: ASTHMA
+================================================================================
+
+disease_slug: asthma
+language_code: tl
+name: Hika
+slug: hika-tl
+short_description: Isang pangmatagalang kondisyon sa respiratory kung saan ang mga daanan ng hangin ay namamaga at kumikitid, na nagiging sanhi ng mga problema sa paghinga.
+description: Ang hika ay isang kondisyon kung saan ang iyong mga daanan ng hangin ay kumikitid at namamaga at maaaring gumawa ng dagdag na mucus. Ito ay maaaring gawing mahirap ang paghinga at mag-trigger ng pag-ubo, wheezing, at hirap sa paghinga.
+overview: Ang hika ay isang pangmatagalang inflammatory disease ng mga daanan ng hangin na nakakaapekto sa 6-10% ng mga Pilipino, parehong mga bata at adulto. Sa panahon ng asthma attack, ang mga kalamnan sa paligid ng mga daanan ng hangin ay humihigpit, ang lining ay namamaga at namamaga, at ang produksyon ng mucus ay tumataas—lahat ay ginagawang mahirap huminga. Ang hika ay hindi maaaring gamutin, ngunit ang mga sintomas ay maaaring kontrolin sa tamang paggamot. Ang mga trigger ay nag-iiba mula sa tao hanggang sa tao at kinabibilangan ng mga allergen (pollen, dust mites, amag, pet dander), respiratory infections, pisikal na aktibidad, malamig na hangin, polusyon sa hangin, usok, at stress.
+
+symptoms: Hirap sa paghinga | Paninikip o sakit sa dibdib | Wheezing (tunog ng sipol kapag humihinga) | Pag-ubo (lalo na sa gabi o madaling araw) | Problema sa pagtulog dahil sa mga problema sa paghinga | Lumalala ang mga sintomas sa respiratory infections (sipon, trangkaso) | Mga sintomas na na-trigger ng ehersisyo o allergens
+
+causes: Genetic predisposition | Mga allergen (pollen, dust mites, amag, pet dander, ipis) | Respiratory infections (lalo na sa pagkabata) | Polusyon sa hangin at usok | Occupational exposures (chemical fumes, alikabok) | Pisikal na aktibidad (exercise-induced asthma) | Malamig na hangin | Malakas na emosyon at stress | Ilang gamot (aspirin, beta-blockers) | Mga food additives (sulfites)
+
+prevention: Kilalanin at iwasan ang mga trigger | Panatilihin ang iyong tahanan na malinis (bawasan ang alikabok, amag, pet dander) | Gumamit ng air conditioning/air purifiers | Iwasan ang mga outdoor activities kapag mataas ang antas ng pollen o polusyon | Huwag manigarilyo at iwasan ang secondhand smoke | Magpabakuna ng flu at pneumonia | Mag-ehersisyo nang regular ngunit mag-warm up nang maayos | Uminom ng preventive medications ayon sa iniresetang
+
+when_to_see_doctor: Makipagkita sa doktor kung mayroon kang madalas na pag-ubo/wheezing, hirap sa paghinga, o paninikip ng dibdib. Kung nadiagnose ng hika, makipagtulungan sa iyong doktor upang lumikha ng asthma action plan. Humingi ng emergency care kung: matinding hirap sa paghinga, asul na mga labi o mukha, mabilis na paglala ng mga sintomas, walang pagpapabuti pagkatapos gumamit ng quick-relief inhaler, hirap sa paglakad o pagsasalita dahil sa hirap sa paghinga.
+
+affected_groups: Mga taong may kasaysayan ng hika o allergies sa pamilya, mga batang may respiratory infections, mga taong nakalantad sa usok ng sigarilyo, mga taong nakalantad sa occupational irritants, at mga taong sobra ang timbang.
+
+================================================================================
+DISEASE #9: THYROID DISORDERS
+================================================================================
+
+disease_slug: thyroid-disorders
+language_code: tl
+name: Mga Sakit sa Thyroid
+slug: sakit-sa-thyroid-tl
+short_description: Mga kondisyon na nakakaapekto sa thyroid gland, na humahantong sa labis na produksyon (hyperthyroidism) o kulang na produksyon (hypothyroidism) ng thyroid hormones.
+description: Ang thyroid ay isang maliit na glandula sa leeg na gumagawa ng mga hormone na nag-regulate ng metabolism. Ang mga sakit sa thyroid ay kinabibilangan ng hypothyroidism (underactive), hyperthyroidism (overactive), at goiter (pinalaking thyroid).
+overview: Ang thyroid gland ay gumagawa ng mga hormone na nag-regulate ng metabolism, enerhiya, paglaki, at pag-unlad. Kapag ang thyroid ay gumagawa ng labis na hormone (hyperthyroidism), ang metabolism ay bumibilis. Kapag gumagawa ito ng kaunti (hypothyroidism), ang metabolism ay bumabagal. Ang goiter, isang pinalaking thyroid, ay karaniwan sa mga mabundok na rehiyon ng Pilipinas na may mababang iodine sa lupa at tubig. Ang DOH ay nag-promote ng salt iodization upang maiwasan ang goiter. Ang iba pang mga sakit sa thyroid ay kinabibilangan ng autoimmune diseases (Graves' disease, Hashimoto's thyroiditis), thyroid nodules, at thyroid cancer.
+
+symptoms: HYPOTHYROIDISM - Pagkapagod | Pagtaas ng timbang | Hindi pagtitiis sa lamig | Tuyong balat at buhok | Paglagas ng buhok | Constipation | Depression | Panghihina ng kalamnan | Mabagal na tibok ng puso | HYPERTHYROIDISM - Pagbaba ng timbang | Mabilis na tibok ng puso | Pagtaas ng gana sa pagkain | Pagkabalisa/anxiety | Panginginig | Pagpapawis | Hindi pagtitiis sa init | Madalas na pagtae | Pinalaking thyroid (goiter) | Umbok na mga mata (Graves' disease)
+
+causes: Kakulangan sa iodine (goiter, hypothyroidism) | Autoimmune diseases (Graves' disease na nagiging sanhi ng hyperthyroidism, Hashimoto's na nagiging sanhi ng hypothyroidism) | Thyroid nodules o cancer | Mga problema sa pituitary gland | Pagbubuntis (postpartum thyroiditis) | Ilang gamot (lithium, amiodarone) | Radiation therapy sa leeg | Thyroid surgery
+
+prevention: Siguraduhing sapat ang iodine intake (gumamit ng iodized salt, kumain ng seafood, dairy) | Regular na thyroid screening kung mayroon kang kasaysayan sa pamilya o mga sintomas | Iwasan ang labis na iodine supplementation | Pamahalaan ang stress | Huwag manigarilyo
+
+when_to_see_doctor: Makipagkita sa doktor kung mapapansin mo ang mga sintomas ng thyroid dysfunction (hindi maipaliwanag na mga pagbabago sa timbang, pagkapagod, palpitations ng puso, pamamaga sa leeg, mga pagbabago sa buhok/balat). Kung mayroon kang kasaysayan ng sakit sa thyroid sa pamilya, magpa-regular na screening. Kung mayroon kang sakit sa thyroid, mag-follow up nang regular upang subaybayan ang mga antas ng thyroid hormone at ayusin ang gamot.
+
+affected_groups: Mga kababaihan (mas karaniwan kaysa sa mga lalaki), mga taong may kasaysayan ng thyroid disease sa pamilya, mga taong nakatira sa mga lugar na may kakulangan sa iodine, mga taong may autoimmune diseases, at mga matatanda.
+
+================================================================================
+DISEASE #10: SYSTEMIC LUPUS ERYTHEMATOSUS (LUPUS)
+================================================================================
+
+disease_slug: lupus
+language_code: tl
+name: Lupus
+slug: lupus-tl
+short_description: Isang pangmatagalang autoimmune disease kung saan ang immune system ay umaatake sa sariling mga tissue ng katawan, na nakakaapekto sa mga kasukasuan, balat, bato, puso, at iba pang mga organo.
+description: Ang lupus ay isang autoimmune disease kung saan ang immune system ng katawan ay nagiging hyperactive at umaatake sa normal, malusog na tissue. Ito ay nagreresulta sa pamamaga, pamamaga, at pinsala sa mga kasukasuan, balat, bato, dugo, puso, at baga.
+overview: Ang Systemic lupus erythematosus (SLE) ay isang pangmatagalang autoimmune disease na maaaring makaapekto sa halos anumang organ system. Ang immune system ay mali ang pag-atake sa malusog na tissue, na nagiging sanhi ng malawak na pamamaga at pinsala. Ang lupus ay nakakaapekto sa mga kababaihan ng 9 beses na mas madalas kaysa sa mga lalaki, karaniwang lumalabas sa pagitan ng edad 15-45. Ang katangiang "butterfly rash" sa mga pisngi at ilong ay isang karaniwang palatandaan, ngunit ang mga sintomas ay malawak na nag-iiba. Walang lunas, ngunit ang paggamot ay maaaring kontrolin ang mga sintomas at maiwasan ang pinsala sa organo. Ang lupus ay maaaring mula sa banayad hanggang sa nakabubuhay, na may mga panahon ng flares (aktibong sakit) at remission.
+
+symptoms: Butterfly-shaped facial rash (sa mga pisngi at ilong) | Mga pantal sa balat sa iba pang bahagi ng katawan | Photosensitivity (pantal pagkatapos ng pagkakalantad sa araw) | Sakit at pamamaga ng kasukasuan | Pagkapagod | Lagnat | Pananakit ng dibdib (pamamaga ng lining ng puso/baga) | Paglagas ng buhok | Mga sugat sa bibig | Raynaud's phenomenon (ang mga daliri/daliri ng paa ay nagiging puti o asul sa lamig) | Mga problema sa bato | Neurological issues (sakit ng ulo, pagkalito, mga problema sa memorya)
+
+causes: Autoimmune dysfunction (immune system ay umaatake sa sariling mga tissue) | Genetic predisposition | Environmental triggers (sikat ng araw, mga impeksyon, mga gamot) | Hormonal factors (nakakaapekto sa mga kababaihan nang mas madalas, kadalasang nagsisimula sa panahon ng reproductive years) | Epstein-Barr virus at iba pang mga impeksyon | Ilang gamot (drug-induced lupus)
+
+prevention: Walang kilalang prevention | Ang maagang diagnosis at paggamot ay kritikal | Iwasan ang pagkakalantad sa araw (magsuot ng sunscreen, protective clothing) | Huwag manigarilyo | Kumain ng malusog na pagkain | Mag-ehersisyo nang regular | Pamahalaan ang stress | Kumuha ng sapat na pahinga
+
+when_to_see_doctor: Makipagkita sa doktor kung bumuo ka ng hindi maipaliwanag na pantal, patuloy na lagnat, patuloy na sakit at pamamaga ng kasukasuan, o labis na pagkapagod. Kung mayroon kang lupus, makipagkita sa iyong doktor nang regular upang subaybayan ang aktibidad ng sakit at function ng organo (bato, puso). Humingi ng agarang pag-aalaga para sa pananakit ng dibdib, matinding hirap sa paghinga, matinding sakit ng ulo, pagkalito, o seizures.
+
+affected_groups: Mga kababaihan (lalo na sa reproductive age), mga taong may kasaysayan ng autoimmune diseases sa pamilya, mga taong may ilang genetic markers, at mga taong nakalantad sa ilang environmental triggers.
+
+================

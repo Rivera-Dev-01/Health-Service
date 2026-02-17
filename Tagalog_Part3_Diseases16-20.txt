@@ -1,0 +1,121 @@
+================================================================================
+TAGALOG TRANSLATIONS - DISEASES 16-20
+================================================================================
+
+================================================================================
+DISEASE #16: INFLUENZA (FLU)
+================================================================================
+
+disease_slug: influenza
+language_code: tl
+name: Trangkaso
+slug: trangkaso-tl
+short_description: Isang nakakahawang sakit sa respiratory na sanhi ng influenza viruses, na may seasonal outbreaks bawat taon.
+description: Ang trangkaso (flu) ay iba sa karaniwang sipon. Ang flu ay biglaan at karaniwang mas matindi, na may mataas na lagnat, sakit sa katawan, at pagkapagod na tumatagal ng 1-2 linggo.
+overview: Ang trangkaso ay isang nakakahawang sakit sa respiratory na sanhi ng influenza A at B viruses. Sa Pilipinas, ang seasonal flu ay nangyayari buong taon ngunit may peak sa tag-ulan at malamig na buwan (Hunyo-Setyembre, Disyembre-Pebrero). Ang flu ay madaling kumakalat sa pamamagitan ng respiratory droplets kapag ang mga taong may impeksyon ay umuubo, bumabahing, o nagsasalita. Karamihan sa mga tao ay gumagaling sa loob ng 1-2 linggo, ngunit ang flu ay maaaring magdulot ng matinding sakit at kamatayan, lalo na sa mga maliliit na bata, matatanda, mga buntis, at mga may pangmatagalang kondisyon. Ang taunang flu vaccination ay ang pinakamahusay na prevention, dahil ang mga flu viruses ay nagbabago bawat taon.
+
+symptoms: Biglaan na mataas na lagnat (38-40°C/100-104°F) | Panginginig at pagpapawis | Tuyong ubo | Masakit na lalamunan | Tumutulong o baradong ilong | Sakit sa kalamnan at katawan | Sakit ng ulo | Pagkapagod at kahinaan (maaaring tumagal ng mga linggo) | Pagduduwal, pagsusuka, pagtatae (mas karaniwan sa mga bata)
+
+causes: Influenza A at B viruses | Kumakalat sa pamamagitan ng respiratory droplets (pag-ubo, pagbahing, pagsasalita) | Contact sa kontaminadong ibabaw pagkatapos ay paghawak sa mukha | Risk factors: edad (maliliit na bata, matatanda), pagbubuntis, pangmatagalang kondisyon (asthma, diabetes, sakit sa puso), mahinang immune system, labis na timbang
+
+prevention: Magpabakuna ng taunang flu vaccine (ideal bago ang flu season) | Maghugas ng kamay nang madalas gamit ang sabon at tubig | Iwasan ang paghawak sa mata, ilong, bibig | Takpan ang pag-ubo at pagbahing | Iwasan ang malapit na contact sa mga taong may sakit | Manatili sa bahay kapag may sakit | Linisin at disinfect ang mga ibabaw | Panatilihin ang mabuting kalusugan (sapat na tulog, pisikal na aktibidad, stress management, masustansyang pagkain)
+
+when_to_see_doctor: Karamihan sa malusog na tao ay maaaring gamutin ang flu sa bahay gamit ang pahinga at likido. Makipagkita sa doktor kung ikaw ay nasa high-risk group (maliliit na bata, matatanda, buntis, may pangmatagalang kondisyon) o kung bumuo ka ng: hirap sa paghinga, pananakit ng dibdib, patuloy na pagsusuka, pagkalito, matinding kahinaan/pagkahilo, seizures, paglala ng pangmatagalang kondisyon. Ang antiviral medications (oseltamivir/Tamiflu) ay pinakamahusay kung sisimulan sa loob ng 48 oras ng simula ng sintomas.
+
+affected_groups: Mga sanggol at maliliit na bata, mga matatandang 65 taong gulang pataas, mga buntis, mga taong may pangmatagalang sakit tulad ng asthma o diabetes, mga taong may mahinang immune system, at mga healthcare workers.
+
+================================================================================
+DISEASE #17: HEPATITIS A
+================================================================================
+
+disease_slug: hepatitis-a
+language_code: tl
+name: Hepatitis A
+slug: hepatitis-a-tl
+short_description: Isang viral liver infection na kumakalat sa pamamagitan ng kontaminadong pagkain at tubig, na nagiging sanhi ng pamamaga ng atay.
+description: Ang Hepatitis A ay isang lubhang nakakahawang impeksyon sa atay na sanhi ng hepatitis A virus. Hindi tulad ng hepatitis B at C, ang hepatitis A ay hindi nagiging sanhi ng pangmatagalang sakit sa atay at bihirang nakamamatay, ngunit maaari itong magdulot ng nakakahiyang mga sintomas.
+overview: Ang Hepatitis A ay isang impeksyon sa atay na sanhi ng hepatitis A virus (HAV), na kumakalat sa pamamagitan ng fecal-oral route (kontaminadong pagkain, tubig, o malapit na contact sa taong may impeksyon). Ito ay endemic sa Pilipinas, lalo na sa mga lugar na may mahinang sanitasyon. Karamihan sa mga tao ay ganap na gumagaling sa loob ng ilang buwan, at kapag nahawaan, mayroon kang panghabambuhay na immunity. Walang pangmatagalang anyo (hindi tulad ng hepatitis B/C), ngunit maaari itong magdulot ng acute liver failure sa bihirang mga kaso. Ang hepatitis A vaccine ay ligtas at epektibo. Ang mabuting kalinisan at ligtas na pagkain/tubig ay susi sa prevention.
+
+symptoms: Madalas na WALANG sintomas (lalo na ang mga batang wala pang 6 taon) | Pagkapagod at kahinaan | Biglaan na pagduduwal at pagsusuka | Sakit sa tiyan (lalo na sa kanang itaas, malapit sa atay) | Pagkawala ng gana sa pagkain | Mababang lagnat | Madilim na ihi | Clay-colored na dumi | Sakit sa kasukasuan | Jaundice (pagdilaw ng balat at mata)
+
+causes: Hepatitis A virus (HAV) | Pagkain ng kontaminadong pagkain o tubig (fecal-oral transmission) | Malapit na personal contact sa taong may impeksyon (household, sexual) | Pagkain ng hilaw o hindi luto ng maayos na shellfish mula sa kontaminadong tubig | Mahinang sanitasyon at kalinisan | Kakulangan ng ligtas na tubig | Siksikan na mga lugar na tinutuluyan | Paglalakbay sa mga endemic areas
+
+prevention: Magpabakuna ng hepatitis A vaccine (2 doses, 6-12 buwan ang pagitan) | Magsanay ng mabuting kalinisan (maghugas ng kamay nang maayos pagkatapos ng banyo, bago kumain/maghanda ng pagkain) | Uminom ng ligtas na tubig (pinakuluan o tinrato) | Iwasan ang hilaw o hindi luto ng maayos na pagkain (lalo na shellfish) | Balatan at hugasan ang mga prutas at gulay | Iwasan ang yelo na gawa mula sa hindi tinratong tubig | Siguraduhing tamang sanitasyon at sewage disposal
+
+when_to_see_doctor: Makipagkita sa doktor kung bumuo ka ng mga sintomas ng hepatitis A (jaundice, madilim na ihi, matinding pagkapagod, sakit sa tiyan, pagsusuka). Magpabakuna kung naglalakbay ka sa mga endemic areas, nagtatrabaho sa healthcare/food service, may pangmatagalang sakit sa atay, o nasa mas mataas na panganib. Karamihan sa mga tao ay gumagaling nang mag-isa gamit ang supportive care (pahinga, sapat na nutrisyon, likido). Humingi ng agarang pag-aalaga kung bumuo ka ng mga palatandaan ng acute liver failure (matinding pagsusuka, pagkalito, matinding pagkaantok).
+
+affected_groups: Mga taong naglalakbay sa mga lugar na may mataas na hepatitis A, mga taong walang access sa ligtas na tubig at sanitasyon, mga healthcare workers, mga food handlers, mga taong gumagamit ng illegal drugs, at mga taong may malapit na contact sa mga taong may hepatitis A.
+
+================================================================================
+DISEASE #18: LEPTOSPIROSIS
+================================================================================
+
+disease_slug: leptospirosis
+language_code: tl
+name: Leptospirosis
+slug: leptospirosis-tl
+short_description: Isang bacterial infection na kumakalat sa pamamagitan ng tubig na kontaminado ng ihi ng hayop, lalo na karaniwan sa panahon ng baha.
+description: Ang leptospirosis ay sanhi ng bacteria ng genus Leptospira. Sa Pilipinas, ito ay malakas na nauugnay sa pagbaha at contact sa baha na kontaminado ng ihi ng daga.
+overview: Ang leptospirosis ay endemic sa Pilipinas na may mga kaso na tumataas sa panahon ng bagyo at tag-ulan (Hunyo-Nobyembre). Ito ay sanhi ng Leptospira bacteria na matatagpuan sa ihi ng mga hayop na may impeksyon, lalo na ang mga daga. Ang mga tao ay nahawaan sa pamamagitan ng direktang contact sa kontaminadong tubig (paglalakad sa baha), lupa, o ihi ng hayop, lalo na sa pamamagitan ng mga hiwa/sugat o mucous membranes (mata, ilong, bibig). Kung walang treatment, maaari itong magdulot ng pinsala sa bato, liver failure, respiratory distress, meningitis, at kamatayan. Ang DOH ay nag-recommend ng doxycycline prophylaxis para sa mga taong nakalantad sa baha, at ang mga public health campaigns ay binibigyang-diin ang pag-iwas sa pagkakalantad sa baha.
+
+symptoms: Unang yugto (7-10 araw): Biglaan na mataas na lagnat | Matinding sakit ng ulo | Sakit sa kalamnan (lalo na sa mga binti at likod) | Panginginig | Pulang mata (conjunctival suffusion) | Pagduduwal at pagsusuka | Pagtatae | Sakit sa tiyan | Pantal | Ikalawang yugto (Weil's disease, matindi): Jaundice (pagdilaw ng balat/mata) | Kidney failure | Liver failure | Pagdurugo | Respiratory distress | Meningitis
+
+causes: Leptospira bacteria (spiral-shaped) | Kumakalat sa pamamagitan ng ihi ng mga hayop na may impeksyon (daga, aso, baka, baboy) | Contact sa kontaminadong tubig/lupa/putik (lalo na baha) | Pagpasok sa pamamagitan ng mga hiwa, gasgas, o mucous membranes | Risk factors: pagbaha, pagsasaka, sewage work, outdoor recreation, kakulangan ng protective footwear
+
+prevention: Iwasan ang paglalakad sa baha (magsuot ng boots kung hindi maiiwasan) | Magsuot ng protective clothing at footwear sa panahon ng high-risk activities (pagsasaka, paglilinis pagkatapos ng baha) | Kontrolin ang populasyon ng mga daga | Siguraduhing tamang pagtatapon ng basura at sanitasyon | Takpan ang mga hiwa at sugat gamit ang waterproof bandages | Doxycycline prophylaxis (200mg isang beses bawat linggo para sa mga regular na nakalantad sa kontaminadong tubig) | Maghugas at mag-disinfect pagkatapos ng pagkakalantad sa posibleng kontaminadong tubig
+
+when_to_see_doctor: Makipagkita sa doktor kaagad kung bumuo ka ng mataas na lagnat, matinding sakit ng ulo, sakit sa kalamnan, o pulang mata sa loob ng 2 linggo pagkatapos ng pagkakalantad sa baha o ihi ng hayop. Ang maagang antibiotic treatment (penicillin o doxycycline) ay lubhang nagpapababa ng kalubhaan. Humingi ng emergency care para sa mga palatandaan ng matinding sakit: jaundice, hirap sa paghinga, pagdurugo, nabawasang pag-ihi, pagkalito. Ang mga high-risk groups ay dapat isaalang-alang ang prophylactic doxycycline sa panahon ng flood season.
+
+affected_groups: Mga taong nakalantad sa baha, mga magsasaka, mga sewage workers, mga veterinarians, mga taong naglalaro o nagtratrabaho sa labas na may contact sa tubig o lupa, at mga taong walang protective footwear.
+
+================================================================================
+DISEASE #19: MEASLES
+================================================================================
+
+disease_slug: measles
+language_code: tl
+name: Tigdas
+slug: tigdas-tl
+short_description: Isang lubhang nakakahawang viral disease na kumakalat sa pamamagitan ng respiratory droplets, maiiwasan sa pamamagitan ng bakuna.
+description: Ang tigdas ay isa sa pinaka-nakakahawang sakit. Bago ang malawakang pagbabakuna, ito ay nagiging sanhi ng milyun-milyong kamatayan bawat taon. Isang taong may impeksyon ay maaaring mahawaan ang 9 sa 10 taong walang bakuna na nakakasalamuha nila.
+overview: Ang tigdas (rubeola, "tigdas" sa Filipino) ay isang lubhang nakakahawang viral disease na maaaring humantong sa seryosong mga komplikasyon at kamatayan. Ang Pilipinas ay nakaranas ng malaking tigdas outbreak noong 2019 na may mahigit 40,000 kaso at daan-daang kamatayan, pangunahin dahil sa pagbaba ng vaccination coverage pagkatapos ng Dengvaxia controversy. Ang tigdas ay kumakalat sa pamamagitan ng respiratory droplets at napakahawa na 90% ng mga taong walang bakuna na nakalantad ay mahahawaan. Ang mga komplikasyon ay kinabibilangan ng pulmonya, encephalitis (pamamaga ng utak), pagkabulag, at kamatayan. Ang MMR vaccine (measles-mumps-rubella) ay ligtas, epektibo, at nagbibigay ng panghabambuhay na immunity. Ang DOH ay nagsasagawa ng supplemental immunization activities upang maabot ang mga batang napalampas ang routine vaccination.
+
+symptoms: Prodromal phase (2-4 araw): Mataas na lagnat | Ubo | Tumutulong na ilong | Pulang tubig na mata (conjunctivitis) | Koplik's spots (maliliit na puting tuldok sa loob ng bibig) | Rash phase: Pulang blotchy rash na nagsisimula sa mukha/hairline | Kumakalat pababa sa trunk at mga binti | Ang rash ay tumatagal ng 5-6 araw pagkatapos ay nawawala | MGA KOMPLIKASYON: Impeksyon sa tainga | Pagtatae | Pulmonya | Encephalitis | Kamatayan (lalo na sa mga batang malnutrition)
+
+causes: Measles virus (Morbillivirus) | Kumakalat sa pamamagitan ng respiratory droplets (pag-ubo, pagbahing) | Lubhang nakakahawa (maaaring manatili sa hangin hanggang 2 oras) | Kakulangan ng bakuna | Kakulangan sa vitamin A (nagpapataas ng kalubhaan) | Malnutrisyon | Siksikan na mga lugar na tinutuluyan | Paglalakbay sa mga lugar na may patuloy na outbreaks
+
+prevention: MMR vaccine (2 doses: una sa 9-12 buwan, pangalawa sa 12-18 buwan sa Pilipinas) | Vitamin A supplementation para sa mga bata (nagpapababa ng kalubhaan at mga komplikasyon) | Iwasan ang contact sa mga taong may impeksyon | Isolation ng mga kaso (nakakahawa mula 4 araw bago hanggang 4 araw pagkatapos ng paglabas ng rash) | Siguraduhing mabuting nutrisyon | Suportahan ang routine immunization programs
+
+when_to_see_doctor: Makipagkita sa doktor kung ikaw o ang iyong anak ay bumuo ng mataas na lagnat na may ubo, tumutulong na ilong, pulang mata, at rash—lalo na kung walang bakuna o hindi sigurado sa vaccination status. Humingi ng agarang pag-aalaga para sa: hirap sa paghinga, pananakit ng dibdib, matinding sakit ng ulo, pagkalito, seizures, matinding pagsusuka/pagtatae, mga palatandaan ng dehydration. Kung nakalantad sa tigdas at walang bakuna, ang post-exposure prophylaxis (MMR vaccine o immunoglobulin) ay maaaring maiwasan ang impeksyon kung ibinigay sa loob ng 72 oras.
+
+affected_groups: Mga batang walang bakuna, mga sanggol na wala pang sapat na edad para sa bakuna, mga buntis, mga taong may mahinang immune system, mga taong may malnutrisyon, at mga taong naglalakbay sa mga lugar na may tigdas outbreak.
+
+================================================================================
+DISEASE #20: SKIN DISEASES & INFECTIONS
+================================================================================
+
+disease_slug: skin-infections
+language_code: tl
+name: Mga Sakit at Impeksyon sa Balat
+slug: impeksyon-sa-balat-tl
+short_description: Iba't ibang bacterial, viral, fungal, o parasitic infections na nakakaapekto sa balat.
+description: Ang mga karaniwang impeksyon sa balat sa Pilipinas ay kinabibilangan ng impetigo (bacterial), cellulitis (bacterial), tinea/ringworm (fungal), at scabies (parasitic mite). Ang mga ito ay umuunlad sa mainit, mahalumigmig na klima.
+overview: Ang mga impeksyon sa balat ay napaka-karaniwan sa Pilipinas dahil sa mainit, mahalumigmig na tropikal na klima. Kinabibilangan nito ang bacterial infections (impetigo, cellulitis, folliculitis), fungal infections (tinea/ringworm, athlete's foot, candidiasis), viral infections (warts, herpes, molluscum contagiosum), at parasitic infections (scabies, lice). Ang mahinang kalinisan, siksikan na mga lugar na tinutuluyan, mga pinsala sa balat, at pagbabahagi ng mga personal na gamit ay nagpapataas ng panganib. Karamihan sa mga impeksyon sa balat ay magagamot gamit ang tamang mga gamot (antibiotics, antifungals, o antiparasitics) at mabuting kalinisan. Ang ilang impeksyon tulad ng impetigo at scabies ay lubhang nakakahawa, lalo na sa mga paaralan at daycare centers.
+
+symptoms: IMPETIGO: Pulang mga sugat (mukha, lalo na sa paligid ng ilong/bibig) | Honey-colored crusts | Lubhang nakakahawa | CELLULITIS: Pula, namamaga, mainit, masakit na bahagi ng balat | Lagnat | RINGWORM: Ring-shaped na pulang rash na may mas malinaw na gitna | Makati | Scalp/katawan/paa/singit | SCABIES: Matinding pangangati (mas masahol sa gabi) | Pimple-like rash | Burrow tracks (manipis, irregular na linya) | Sa pagitan ng mga daliri, pulso, siko, kilikili | ATHLETE'S FOOT: Makati, scaly rash sa pagitan ng mga daliri ng paa | Nasusunog, kumikiliti | Bitak na balat
+
+causes: BACTERIAL: Staphylococcus aureus, Streptococcus (impetigo, cellulitis). FUNGAL: Dermatophytes (ringworm, athlete's foot), Candida (yeast). PARASITIC: Sarcoptes scabiei (scabies), Pediculus (lice). Risk factors: Mahinang kalinisan, Mahalumigmig na klima, Siksikan, Mga pinsala/sugat sa balat, Pagbabahagi ng mga tuwalya/damit/personal na gamit, Mahinang immune system, Diabetes
+
+prevention: Magsanay ng mabuting kalinisan (araw-araw na paliligo, paghuhugas ng kamay) | Panatilihing malinis at tuyo ang balat | Iwasan ang pagbabahagi ng mga personal na gamit (tuwalya, damit, suklay, razor) | Gamutin ang mga hiwa at sugat kaagad | Magsuot ng malinis na damit at magpalit ng medyas araw-araw | Iwasan ang paglalakad nang nakayapak sa mga pampublikong lugar | Huwag kamutan ang mga impeksyon sa balat (kumakalat ng bacteria) | Panatilihing maikli at malinis ang mga kuko | Gamutin ang mga miyembro ng pamilya na may impeksyon nang sabay-sabay (scabies, lice)
+
+when_to_see_doctor: Makipagkita sa doktor kung bumuo ka ng: impeksyon sa balat na hindi bumubuti gamit ang over-the-counter treatment, kumakalat na pamumula/pamamaga, lagnat, nana o drainage, matinding sakit, pulang guhit na lumalaki mula sa sugat, mga palatandaan ng cellulitis, pinaghihinalaang scabies (gamutin ang buong household). Para sa mga batang may impetigo, panatilihing nasa bahay mula sa paaralan hanggang 24 oras pagkatapos magsimula ng antibiotics. Ang mga diabetics at immunocompromised ay dapat humingi ng mabilis na pag-aalaga para sa anumang impeksyon sa balat.
+
+affected_groups: Mga batang naglalaro sa labas, mga taong nakatira sa siksikan na lugar, mga taong may mahinang kalinisan, mga taong may diabetes, mga taong may mahinang immune system, mga atleta, at mga taong gumagamit ng mga pampublikong shower o pool.
+
+================================================================================
+END OF TAGALOG TRANSLATIONS
+================================================================================
+Total Diseases Translated: 20
+Language: Tagalog (tl)
+Last Updated: February 2025
+================================================================================
