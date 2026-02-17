@@ -301,7 +301,7 @@ export function getDisplayText(disease: DiseaseWithTranslation, field: keyof Dis
                 return cleaned.split(' | ').map(s => s.trim()).filter(s => s)
               } else if (cleaned.match(/[.!?]\s+[A-Z]/)) {
                 // Split by sentence boundaries (period/exclamation/question followed by capital letter)
-                return cleaned.split(/([.!?])\s+(?=[A-Z])/).reduce((acc, part, i, arr) => {
+                return cleaned.split(/([.!?])\s+(?=[A-Z])/).reduce<string[]>((acc, part, i, arr) => {
                   if (i % 2 === 0) {
                     const sentence = part + (arr[i + 1] || '')
                     if (sentence.trim()) acc.push(sentence.trim())
