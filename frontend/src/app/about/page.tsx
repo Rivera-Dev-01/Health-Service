@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 import { HeartPulse, CheckCircle2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -8,14 +10,17 @@ import {
     CardHeader,
     CardTitle,
 } from "@/components/ui/card";
+import { useLanguage } from "@/lib/language-context";
 
 export default function AboutPage() {
+    const { t } = useLanguage();
+
     return (
         <div className="container mx-auto px-4 py-12 max-w-4xl">
             <div className="text-center mb-12">
-                <h1 className="text-4xl font-bold tracking-tight mb-4">About Care Cures</h1>
+                <h1 className="text-4xl font-bold tracking-tight mb-4">{t("about.title")}</h1>
                 <p className="text-xl text-muted-foreground">
-                    Empowering you with the knowledge to understand your health better.
+                    {t("about.subtitle")}
                 </p>
             </div>
 
@@ -26,15 +31,15 @@ export default function AboutPage() {
                         <CardHeader>
                             <CardTitle className="flex items-center text-2xl">
                                 <HeartPulse className="mr-3 h-6 w-6 text-primary" />
-                                Our Mission
+                                {t("about.mission.title")}
                             </CardTitle>
                         </CardHeader>
                         <CardContent className="text-lg leading-relaxed text-muted-foreground">
                             <p className="mb-4">
-                                Care Cures was created with a simple goal: to make medical information accessible, easy to understand, and less intimidating for everyone. We believe that understanding your health is the first step toward better well-being.
+                                {t("about.mission.p1")}
                             </p>
                             <p>
-                                Our platform aggregates simplified medical data about common diseases, symptoms, and preventive measures, creating a bridge between complex medical terminology and everyday language.
+                                {t("about.mission.p2")}
                             </p>
                         </CardContent>
                     </Card>
@@ -44,40 +49,40 @@ export default function AboutPage() {
                 <section className="grid md:grid-cols-2 gap-6">
                     <Card>
                         <CardHeader>
-                            <CardTitle className="text-xl">For Patients</CardTitle>
+                            <CardTitle className="text-xl">{t("about.patients.title")}</CardTitle>
                         </CardHeader>
                         <CardContent>
                             <p className="text-muted-foreground mb-4">
-                                Understand what your symptoms might mean, prepare for doctor visits, and learn how to manage conditions effectively.
+                                {t("about.patients.desc")}
                             </p>
                             <ul className="space-y-2">
                                 <li className="flex items-center text-sm">
                                     <CheckCircle2 className="mr-2 h-4 w-4 text-green-500" />
-                                    Simplified explanations
+                                    {t("about.patients.feature1")}
                                 </li>
                                 <li className="flex items-center text-sm">
                                     <CheckCircle2 className="mr-2 h-4 w-4 text-green-500" />
-                                    Symptom checklists
+                                    {t("about.patients.feature2")}
                                 </li>
                             </ul>
                         </CardContent>
                     </Card>
                     <Card>
                         <CardHeader>
-                            <CardTitle className="text-xl">For Caregivers</CardTitle>
+                            <CardTitle className="text-xl">{t("about.caregivers.title")}</CardTitle>
                         </CardHeader>
                         <CardContent>
                             <p className="text-muted-foreground mb-4">
-                                Get the information you need to support your loved ones, understand their medications, and recognize warning signs.
+                                {t("about.caregivers.desc")}
                             </p>
                             <ul className="space-y-2">
                                 <li className="flex items-center text-sm">
                                     <CheckCircle2 className="mr-2 h-4 w-4 text-green-500" />
-                                    Prevention tips
+                                    {t("about.caregivers.feature1")}
                                 </li>
                                 <li className="flex items-center text-sm">
                                     <CheckCircle2 className="mr-2 h-4 w-4 text-green-500" />
-                                    Emergency guidelines
+                                    {t("about.caregivers.feature2")}
                                 </li>
                             </ul>
                         </CardContent>
@@ -88,17 +93,17 @@ export default function AboutPage() {
                 <section>
                     <Card className="border-red-200 bg-red-50/50 dark:bg-red-900/10 dark:border-red-900/30">
                         <CardHeader>
-                            <CardTitle className="text-red-700 dark:text-red-400">Medical Disclaimer</CardTitle>
+                            <CardTitle className="text-red-700 dark:text-red-400">{t("about.disclaimer.title")}</CardTitle>
                         </CardHeader>
                         <CardContent className="text-red-800/80 dark:text-red-300">
                             <p className="mb-4 font-semibold">
-                                This website is for educational purposes only and is not a substitute for professional medical advice, diagnosis, or treatment.
+                                {t("about.disclaimer.p1")}
                             </p>
                             <p className="mb-4">
-                                Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition. Never disregard professional medical advice or delay in seeking it because of something you have read on this website.
+                                {t("about.disclaimer.p2")}
                             </p>
                             <p>
-                                If you think you may have a medical emergency, call your doctor or emergency services immediately. Care Cures does not recommend or endorse any specific tests, physicians, products, procedures, opinions, or other information that may be mentioned on the Site.
+                                {t("about.disclaimer.p3")}
                             </p>
                         </CardContent>
                     </Card>
@@ -106,7 +111,7 @@ export default function AboutPage() {
 
                 <div className="text-center mt-8">
                     <Button size="lg" asChild>
-                        <Link href="/">Back to Home</Link>
+                        <Link href="/">{t("about.back")}</Link>
                     </Button>
                 </div>
             </div>

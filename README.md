@@ -52,9 +52,6 @@ A comprehensive health information platform providing detailed information about
 ├── Tagalog_Translations.txt        # Tagalog translations (diseases 1-10)
 ├── Tagalog_Part2_Diseases11-15.txt # Tagalog translations (diseases 11-15)
 ├── Tagalog_Part3_Diseases16-20.txt # Tagalog translations (diseases 16-20)
-├── txt_ingestion_pipeline.py      # Script to ingest English data
-├── translation_ingestion_fixed.py  # Script to ingest Tagalog translations
-└── TRANSLATION_SCHEMA.sql          # Database schema
 ```
 
 ## Database Schema

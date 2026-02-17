@@ -3,7 +3,7 @@
 import { useState, useMemo, Suspense, useEffect } from "react";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
-import { ArrowRight, HeartPulse, Activity, Brain, Wind, Search } from "lucide-react";
+import { ArrowRight, HeartPulse, Activity, Brain, Wind, Search, CheckCircle2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
@@ -56,6 +56,14 @@ function DiseaseListContent() {
     const [selectedCategory, setSelectedCategory] = useState(initialCategory);
     const [searchQuery, setSearchQuery] = useState(initialSearch);
     const [sortOrder, setSortOrder] = useState("az");
+
+    // Helper function to translate category names
+    const translateCategory = (category: string) => {
+        const key = `category.${category.toLowerCase().replace(/[^a-z]/g, '')}`;
+        const translated = t(key);
+        // If translation key doesn't exist, return original
+        return translated === key ? category : translated;
+    };
 
     // Fetch diseases from Supabase
     useEffect(() => {
@@ -173,7 +181,7 @@ function DiseaseListContent() {
                                     className="shrink-0 rounded-full"
                                     onClick={() => setSelectedCategory(category)}
                                 >
-                                    {category}
+                                    {translateCategory(category)}
                                     <span className="ml-1.5 text-xs opacity-70">({count})</span>
                                 </Button>
                             );
@@ -205,7 +213,7 @@ function DiseaseListContent() {
                                             className="w-full justify-start font-medium"
                                             onClick={() => setSelectedCategory(category)}
                                         >
-                                            {category}
+                                            {translateCategory(category)}
                                             <span className="ml-auto text-xs opacity-60">{count}</span>
                                         </Button>
                                     );
@@ -249,14 +257,25 @@ function DiseaseListContent() {
                                         transition={{ duration: 0.3, delay: index * 0.05 }}
                                     >
                                         <Link href={`/diseases/${disease.slug}`} className="block h-full">
-                                            <Card className="group h-full hover:shadow-xl hover:-translate-y-1 transition-all duration-300 border-2 border-transparent hover:border-primary/20 relative overflow-hidden cursor-pointer flex flex-col">
+                                            <Card className="group h-full hover:shadow-xl hover:-translate-y-1 transition-all duration-300 border-2 hover:border-primary/30 relative overflow-hidden cursor-pointer flex flex-col">
+                                                {/* Animated background blob */}
                                                 <div className="absolute top-0 right-0 w-32 h-32 bg-primary/5 rounded-full -translate-y-16 translate-x-16 group-hover:scale-150 transition-transform duration-500" />
+                                                
                                                 <CardHeader className="relative pb-4">
-                                                    <div className="flex justify-between items-start mb-3">
-                                                        <div className="p-3 rounded-xl bg-primary/10 border border-primary/20">
+                                                    <div className="flex justify-between items-start mb-4">
+                                                        {/* Left: Icon */}
+                                                        <div className="p-3 rounded-xl bg-primary/10 border-2 border-primary/20">
                                                             {getIcon(disease.icon)}
                                                         </div>
-                                                        <Badge variant="secondary" className="font-medium">{disease.category}</Badge>
+                                                        {/* Right: Reviewed Badge */}
+                                                        <div className="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-green-50 border border-green-200">
+                                                            <CheckCircle2 className="h-3.5 w-3.5 text-green-600" />
+                                                            <span className="text-xs font-semibold text-green-700">{t("diseases.reviewed")}</span>
+                                                        </div>
+                                                    </div>
+                                                    {/* Category Badge - Full width placement */}
+                                                    <div className="mb-3">
+                                                        <Badge variant="secondary" className="text-xs font-medium">{translateCategory(disease.category)}</Badge>
                                                     </div>
                                                     <CardTitle className="text-2xl font-bold group-hover:text-primary transition-colors mb-2">
                                                         {displayName}
