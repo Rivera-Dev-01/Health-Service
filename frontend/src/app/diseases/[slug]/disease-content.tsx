@@ -89,6 +89,37 @@ export function DiseaseContent({ disease: initialDisease, relatedDiseases }: Dis
         setLanguage(newLang);
     };
 
+    const handleShare = async () => {
+        const shareData = {
+            title: `${displayName} - Care Cures`,
+            text: displayShortDesc,
+            url: window.location.href,
+        };
+
+        try {
+            // Check if Web Share API is supported
+            if (navigator.share) {
+                await navigator.share(shareData);
+            } else {
+                // Fallback: Copy to clipboard
+                await navigator.clipboard.writeText(window.location.href);
+                alert('Link copied to clipboard!');
+            }
+        } catch (error) {
+            // User cancelled or error occurred
+            if (error instanceof Error && error.name !== 'AbortError') {
+                console.error('Error sharing:', error);
+                // Fallback: Copy to clipboard
+                try {
+                    await navigator.clipboard.writeText(window.location.href);
+                    alert('Link copied to clipboard!');
+                } catch (clipboardError) {
+                    console.error('Clipboard error:', clipboardError);
+                }
+            }
+        }
+    };
+
     const sections = [
         { id: "overview", label: t("disease.overview"), icon: Info, color: "blue" },
         { id: "causes", label: t("disease.causes"), icon: AlertTriangle, color: "orange" },
@@ -151,7 +182,12 @@ export function DiseaseContent({ disease: initialDisease, relatedDiseases }: Dis
                                     <Languages className="h-4 w-4" />
                                     {loading ? 'Loading...' : language === 'en' ? 'Tagalog' : 'English'}
                                 </Button>
-                                <Button variant="outline" size="lg" className="gap-2">
+                                <Button 
+                                    variant="outline" 
+                                    size="lg" 
+                                    className="gap-2"
+                                    onClick={handleShare}
+                                >
                                     <Share2 className="h-4 w-4" />
                                     {t("disease.share")}
                                 </Button>
